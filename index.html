@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS Reading: Summary Completion Practice</title>
+<style>
+  :root{
+    --primary:#2563eb; --primary-dark:#1d4ed8; --bg:#f4f6fb; --card:#ffffff;
+    --border:#dbe2ea; --text:#1f2937; --muted:#6b7280; --success:#16a34a; --danger:#dc2626;
+  }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:0;}
+  header{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;padding:24px 20px;text-align:center;}
+  header h1{margin:0;font-size:1.6rem;}
+  header p{margin:6px 0 0;opacity:.9;font-size:.95rem;}
+  .container{max-width:1300px;margin:0 auto;padding:20px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.05);}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  label{display:block;font-weight:600;margin-bottom:6px;font-size:.9rem;}
+  input[type=text],input[type=email]{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:1rem;}
+  .btn{background:var(--primary);color:#fff;border:none;padding:12px 22px;border-radius:8px;font-size:1rem;cursor:pointer;font-weight:600;transition:background .2s;}
+  .btn:hover{background:var(--primary-dark);}
+  .btn:disabled{background:#9ca3af;cursor:not-allowed;}
+  .btn-secondary{background:#fff;color:var(--primary);border:1px solid var(--primary);}
+  .btn-secondary:hover{background:#eef2ff;}
+  #startScreen{max-width:600px;margin:40px auto;}
+  .highlight-toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap;background:#eef2ff;padding:10px;border-radius:8px;}
+  .highlight-toolbar span{font-size:.85rem;color:var(--muted);}
+  .swatch{width:24px;height:24px;border-radius:50%;cursor:pointer;border:2px solid transparent;}
+  .swatch.active{border-color:#1f2937;}
+  .exercise-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+  .exercise-nav button{padding:8px 14px;border-radius:20px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.85rem;}
+  .exercise-nav button.active{background:var(--primary);color:#fff;border-color:var(--primary);}
+  .split{display:flex;gap:20px;align-items:flex-start;}
+  .pane{flex:1;min-width:0;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;max-height:75vh;overflow-y:auto;}
+  .pane h3{margin-top:0;font-size:1.1rem;color:var(--primary-dark);}
+  .pane p{line-height:1.7;font-size:.97rem;}
+  mark{padding:0 2px;border-radius:3px;cursor:pointer;}
+  .blank{display:inline-block;width:90px;min-width:70px;border:none;border-bottom:2px solid var(--primary);padding:1px 4px;font-weight:600;text-align:center;background:#f8fafc;border-radius:4px;font-size:.9rem;}
+  .blank:focus{outline:none;background:#eef2ff;}
+  .footer-nav{display:flex;justify-content:space-between;margin-top:20px;}
+  #scoreScreen{max-width:700px;margin:40px auto;text-align:center;}
+  #scoreScreen h2{font-size:2rem;color:var(--primary-dark);}
+  .score-circle{width:140px;height:140px;border-radius:50%;background:conic-gradient(var(--success) calc(var(--pct,0)*1%),#e5e7eb 0);display:flex;align-items:center;justify-content:center;margin:20px auto;position:relative;}
+  .score-circle::before{content:"";width:110px;height:110px;background:#fff;border-radius:50%;position:absolute;}
+  .score-circle span{position:relative;font-size:1.8rem;font-weight:700;}
+  .hidden{display:none !important;}
+  .progress-bar{height:6px;background:#e5e7eb;border-radius:4px;margin-bottom:16px;overflow:hidden;}
+  .progress-bar-fill{height:100%;background:var(--primary);transition:width .3s;}
+  .kw-summary{text-align:left;background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.85rem;}
+  .kw-summary h4{margin:0 0 8px;}
+  .kw-tag{display:inline-block;background:#e0e7ff;color:#3730a3;padding:2px 8px;border-radius:12px;margin:2px;font-size:.78rem;}
+  #submitStatus{margin-top:12px;font-size:.9rem;}
+  .required-star{color:var(--danger);}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IELTS Reading: Summary Completion Practice</h1>
+  <p>Highlight the passage and questions, fill in your answers, then submit for instant scoring.</p>
+</header>
+
+<div class="container">
+
+  <div id="startScreen" class="card">
+    <h2 style="margin-top:0;">Student Information</h2>
+    <div class="form-grid">
+      <div>
+        <label>Full Name <span class="required-star">*</span></label>
+        <input type="text" id="studentName" required placeholder="e.g. Nguyen Van A">
+      </div>
+      <div>
+        <label>Class <span class="required-star">*</span></label>
+        <input type="text" id="studentClass" required placeholder="e.g. IELTS-B2">
+      </div>
+    </div>
+    <p style="margin-top:16px;color:var(--muted);font-size:.9rem;">There are 11 short reading passages with Summary Completion questions. You can highlight text in both the passage and question panes as you work. Your highlighted keywords will be included with your submission.</p>
+    <div style="text-align:center;margin-top:18px;">
+      <button class="btn" id="startBtn">Start Exercise</button>
+    </div>
+  </div>
+
+  <div id="examScreen" class="hidden">
+    <div class="progress-bar"><div class="progress-bar-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="exercise-nav" id="exerciseNav"></div>
+
+    <div class="highlight-toolbar">
+      <span>Highlight color:</span>
+      <div class="swatch active" style="background:#fff59d" data-color="#fff59d"></div>
+      <div class="swatch" style="background:#a5d6a7" data-color="#a5d6a7"></div>
+      <div class="swatch" style="background:#90caf9" data-color="#90caf9"></div>
+      <div class="swatch" style="background:#f48fb1" data-color="#f48fb1"></div>
+      <button class="btn-secondary" id="clearHlBtn" style="padding:6px 12px;font-size:.8rem;border-radius:6px;">Clear highlights (this passage)</button>
+      <span>Select text, then click a color to highlight. Click a highlight to remove it.</span>
+    </div>
+
+    <div class="split">
+      <div class="pane" id="passagePane"><h3 id="passageTitle"></h3><div id="passageContent"></div></div>
+      <div class="pane" id="questionPane"><h3>Questions</h3><p id="questionInstructions" style="font-style:italic;color:var(--muted);"></p><div id="questionContent"></div></div>
+    </div>
+
+    <div class="footer-nav">
+      <button class="btn-secondary" id="prevBtn">Previous</button>
+      <button class="btn" id="nextBtn">Next</button>
+      <button class="btn" id="submitBtn" style="display:none;background:var(--success);">Submit and See Score</button>
+    </div>
+  </div>
+
+  <div id="scoreScreen" class="hidden card">
+    <h2>Your Results</h2>
+    <div class="score-circle" id="scoreCircle"><span id="scoreText">0/0</span></div>
+    <p id="scorePercent" style="font-size:1.2rem;font-weight:600;"></p>
+    <div id="submitStatus"></div>
+    <div class="kw-summary" id="kwSummary"></div>
+    <div style="margin-top:24px;">
+      <button class="btn" id="answerKeyBtn">View Answer Key</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const EXERCISES = [{"id": "ex1", "title": "C13T1P2 - Why being bored is stimulating - and useful, too", "passage": "<p><b>A</b> We all know how it feels - it's impossible to keep your mind on anything, time stretches out, and all the things you could do seem equally unlikely to make you feel better. But defining boredom so that it can be studied in the lab has proved difficult. For a start, it can include a lot of other mental states, such as frustration, apathy, depression and indifference. There isn't even agreement over whether boredom is always a low-energy, flat kind of emotion or whether feeling agitated and restless counts as boredom, too. In his book, <i>Boredom: A Lively History</i>, Peter Toohey at the University of Calgary, Canada, compares it to disgust - an emotion that motivates us to stay away from certain situations. 'If disgust protects humans from infection, boredom may protect them from infectious social situations,' he suggests.</p><p><b>B</b> By asking people about their experiences of boredom, Thomas Goetz and his team at the University of Konstanz in Germany have recently identified five distinct types: indifferent, calibrating, searching, reactant and apathetic. These can be plotted on two axes - one running left to right, which measures low to high arousal, and the other from top to bottom, which measures how positive or negative the feeling is. Intriguingly, Goetz has found that while people experience all kinds of boredom, they tend to specialise in one. Of the five types, the most damaging is 'reactant' boredom with its explosive combination of high arousal and negative emotion. The most useful is what Goetz calls 'indifferent' boredom: someone isn't engaged in anything satisfying but still feels relaxed and calm.</p><p><b>C</b> Psychologist Sandi Mann at the University of Central Lancashire, UK, goes further. 'All emotions are there for a reason, including boredom,' she says. Mann has found that being bored makes us more creative. In experiments published last year, Mann found that people who had been made to feel bored by copying numbers out of the phone book for 15 minutes came up with more creative ideas about how to use a polystyrene cup than a control group.</p><p><b>D</b> Psychologist John Eastwood at York University in Toronto, Canada, isn't convinced. 'If you are in a state of mind-wandering you are not bored,' he says. 'In my view, by definition boredom is an undesirable state.' For Eastwood, the central feature of boredom is a failure to put our 'attention system' into gear. This causes an inability to focus on anything, which makes time seem to go painfully slowly. What's more, your efforts to improve the situation can end up making you feel worse. 'People try to connect with the world and if they are not successful there's that frustration and irritability,' he says.</p><p><b>E</b> Eastwood's team is now trying to explore why the attention system fails. It's early days but they think that at least some of it comes down to personality. People who are motivated by pleasure seem to suffer particularly badly. Other personality traits, such as curiosity, are associated with a high boredom threshold. It seems those who bore easily face poorer prospects in education, their career and even life in general.</p><p><b>F</b> Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles might even be a new source of boredom. 'In modern human society there is a lot of overstimulation but still a lot of problems finding meaning,' she says.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Responses to boredom</h4><p>For John Eastwood, the central feature of boredom is that people cannot {{24}}, due to a failure in what he calls the 'attention system', and as a result they become frustrated and irritable. His team suggests that those for whom {{25}} is an important aim in life may have problems in coping with boredom, whereas those who have the characteristic of {{26}} can generally cope with it.</p>", "questions": [{"num": 24, "type": "text", "answers": ["focus"]}, {"num": 25, "type": "text", "answers": ["pleasure"]}, {"num": 26, "type": "text", "answers": ["curiosity"]}]}, {"id": "ex2", "title": "C13T2P2 - Oxytocin", "passage": "<p><b>A</b> Oxytocin is a chemical, a hormone produced in the pituitary gland in the brain. It was through various studies focusing on animals that scientists first became aware of the influence of oxytocin. They discovered that it helps reinforce the bonds between prairie voles, which mate for life, and triggers the motherly behaviour that sheep show towards their newborn lambs. It is also released by women in childbirth, strengthening the attachment between mother and baby. Few chemicals have as positive a reputation as oxytocin, which is sometimes referred to as the 'love hormone'.</p><p><b>B</b> Oxytocin's role in human behaviour first emerged in 2005. In a groundbreaking experiment, Markus Heinrichs and his colleagues at the University of Freiburg, Germany, asked volunteers to do an activity in which they could invest money with an anonymous person who was not guaranteed to be honest. The team found the participants who had sniffed oxytocin via a nasal spray beforehand invested more money than those who received a placebo instead.</p><p><b>C</b> Then, after a few years, contrasting findings began to emerge. Simone Shamay-Tsoory at the University of Haifa, Israel, found that when volunteers played a competitive game, those who inhaled the hormone showed more pleasure when they beat other players, and felt more envy when others won.</p><p><b>D</b> Another discovery is that oxytocin's effects vary depending on who we are interacting with. Studies conducted by Carolyn DeClerck of the University of Antwerp, Belgium, revealed that people who had received a dose of oxytocin actually became less cooperative when dealing with complete strangers. Meanwhile, Carsten De Dreu at the University of Amsterdam in the Netherlands discovered that volunteers given oxytocin showed favouritism: Dutch men became quicker to associate positive words with Dutch names than with foreign ones, for example.</p><p><b>E</b> There were signs of these subtleties from the start. Bartz has recently shown that in almost half of the existing research results, oxytocin influenced only certain individuals or in certain circumstances.</p><p><b>F</b> Perhaps we should not be surprised that the oxytocin story has become more perplexing. The hormone is found in everything from octopuses to sheep, and its evolutionary roots stretch back half a billion years.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Oxytocin research</h4><p>The earliest findings about oxytocin and bonding came from research involving {{21}}. It was also discovered that humans produce oxytocin during {{22}}. An experiment in 2005, in which participants were given either oxytocin or a {{23}}, reinforced the belief that the hormone had a positive effect.</p><p>However, later research suggests that this is not always the case. A study at the University of Haifa where participants took part in a {{24}} revealed the negative emotions which oxytocin can trigger. A study at the University of Antwerp showed people's lack of willingness to help {{25}} while under the influence of oxytocin. Meanwhile, research at the University of Amsterdam revealed that people who have been given oxytocin consider {{26}} that are familiar to them in their own country to have more positive associations than those from other cultures.</p>", "questions": [{"num": 21, "type": "text", "answers": ["animals"]}, {"num": 22, "type": "text", "answers": ["childbirth"]}, {"num": 23, "type": "text", "answers": ["placebo"]}, {"num": 24, "type": "text", "answers": ["game"]}, {"num": 25, "type": "text", "answers": ["strangers"]}, {"num": 26, "type": "text", "answers": ["names"]}]}, {"id": "ex3", "title": "C13T3P2 - How baby talk gives infant brains a boost", "passage": "<p><b>A</b> The typical way of talking to a baby - high-pitched, exaggerated and repetitious - is a source of fascination for linguists who hope to understand how baby talk impacts on learning.</p><p><b>B</b> Early language exposure seems to have benefits to the brain. So how does the sweet if sometimes absurd sound of infant-directed speech influence a baby's development?</p><p><b>C</b> Fathers don't use baby talk as often or in the same ways as mothers - and that's perfectly OK, according to a new study. Mark VanDam of Washington State University at Spokane and colleagues equipped parents with recording devices and speech-recognition software to study the way they interacted with their youngsters during a normal day. 'We found that moms do exactly what you'd expect and what's been described many times over,' VanDam explains. 'But we found that dads aren't doing the same thing. Dads didn't raise their pitch or fundamental frequency when they talked to kids.' Their role may be rooted in what is called the bridge hypothesis, which dates back to 1975. It suggests that fathers use less familial language to provide their children with a bridge to the kind of speech they'll hear in public. 'The idea is that a kid gets to practice a certain kind of speech with mom and another kind of speech with dad, so the kid then has a wider repertoire of kinds of speech to practice,' says VanDam.</p><p><b>D</b> Scientists from the University of Washington and the University of Connecticut collected thousands of 30-second conversations between parents and their babies, fitting 26 children with audio-recording vests that captured language and sound during a typical eight-hour day. The study found that the more baby talk parents used, the more their youngsters began to babble. And when researchers saw the same babies at age two, they found that frequent baby talk had dramatically boosted vocabulary, regardless of socioeconomic status.</p><p><b>E</b> Another study suggests that parents might want to pair their youngsters up so they can babble more with their own kind. Researchers found that babies seem to like listening to each other rather than to adults.</p><p><b>F</b> In a study published in Proceedings of the National Academy of Sciences, a total of 57 babies were played syllables from both their native language and a non-native tongue. The results suggest that listening to baby talk prompts infant brains to start practicing their language skills.</p>", "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.", "summaryHtml": "<h4>Research into how parents talk to babies</h4><p>Researchers at Washington State University used {{18}}, together with specialised computer programs, to analyse how parents interacted with their babies during a normal day. The study revealed that {{19}} tended not to modify their ordinary speech patterns when interacting with their babies. According to an idea known as the {{20}}, they may use a more adult type of speech to prepare infants for the language they will hear outside the family home. According to the researchers, hearing baby talk from one parent and 'normal' language from the other expands the baby's {{21}} of types of speech which they can practise.</p><p>Meanwhile, another study carried out by scientists from the University of Washington and the University of Connecticut recorded speech and sound using special {{22}} that the babies were equipped with. When they studied the babies again at age two, they found that those who had heard a lot of baby talk in infancy had a much larger {{23}} than those who had not.</p>", "questions": [{"num": 18, "type": "text", "answers": ["recording devices"]}, {"num": 19, "type": "text", "answers": ["dads", "fathers"]}, {"num": 20, "type": "text", "answers": ["bridge hypothesis"]}, {"num": 21, "type": "text", "answers": ["repertoire"]}, {"num": 22, "type": "text", "answers": ["audio-recording vests", "audio recording vests"]}, {"num": 23, "type": "text", "answers": ["vocabulary"]}]}, {"id": "ex4", "title": "C13T3P3 - Whatever happened to the Harappan Civilisation? (extract)", "passage": "<p><b>E</b> Now, research published by Dr Yama Dixit and Professor David Hodell, both from Cambridge's Department of Earth Sciences, has provided the first definitive evidence for climate change affecting the plains of north-western India, where hundreds of Harappan sites are known to have been situated. The researchers gathered shells of Melanoides tuberculate snails from the sediments of an ancient lake and used geochemical analysis as a means of tracing the climate history of the region. 'As today, the major source of water into the lake is likely to have been the summer monsoon,' says Dixit. 'But we have observed that there was an abrupt change about 4,100 years ago, when the amount of evaporation from the lake exceeded the rainfall - indicative of a drought.' Hodell adds: 'We estimate that the weakening of the Indian summer monsoon climate lasted about 200 years before recovering to the previous conditions, which we still see today.'</p><p><b>F</b> It has long been thought that other great Bronze Age civilisations also declined at a similar time, with a global-scale climate event being seen as the cause.</p><p><b>G</b> Petrie and Singh's team is now examining archaeological records and trying to understand details of how people led their lives in the region five millennia ago. They are analysing grains cultivated at the time, and trying to work out whether they were grown under extreme conditions of water stress, and whether they were adjusting the combinations of crops they were growing for different weather systems. They are also looking at whether the types of pottery used, and other aspects of their material culture, were distinctive to specific regions or were more similar across larger areas.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Looking at evidence of climate change</h4><p>Yama Dixit and David Hodell have found the first definitive evidence of climate change affecting the plains of north-western India thousands of years ago. By collecting the {{32}} of snails and analysing them, they discovered evidence of a change in water levels in a {{33}} in the region. This occurred when there was less {{34}} than evaporation, and suggests that there was an extended period of drought.</p><p>Petrie and Singh's team are using archaeological records to look at {{35}} from five millennia ago, in order to know whether people had adapted their agricultural practices to changing climatic conditions. They are also examining objects including {{36}}, so as to find out about links between inhabitants of different parts of the region and whether these changed over time.</p>", "questions": [{"num": 32, "type": "text", "answers": ["shells"]}, {"num": 33, "type": "text", "answers": ["lake"]}, {"num": 34, "type": "text", "answers": ["rainfall"]}, {"num": 35, "type": "text", "answers": ["grains"]}, {"num": 36, "type": "text", "answers": ["pottery"]}]}, {"id": "ex5", "title": "C13T4P2 - Saving the Soil (extract)", "passage": "<p><b>A</b> More than a third of the world's soil is endangered, according to a recent UN report. If we don't slow the decline, all farmable soil could be gone in 60 years. Since soil grows 95% of our food, and sustains human life in other more surprising ways, that is a huge problem.</p><p><b>B</b> Peter Groffman, from the Cary Institute of Ecosystem Studies in New York, points out that soil scientists have been warning about the degradation of the world's soil for decades. A single gram of healthy soil might contain 100 million bacteria, as well as other microorganisms such as viruses and fungi, living amid decomposing plants and various minerals.</p><p>That means soils do not just grow our food, but are the source of nearly all our existing antibiotics, and could be our best hope in the fight against antibiotic-resistant bacteria. Soil is also an ally against climate change: as microorganisms within soil digest dead animals and plants, they lock in their carbon content, holding three times the amount of carbon as does the entire atmosphere. Soils also store water, preventing flood damage: in the UK, damage to buildings, roads and bridges from floods caused by soil degradation costs 233 million pounds every year.</p><p><b>C</b> If the soil loses its ability to perform these functions, the human race could be in big trouble. Agriculture is by far the biggest problem. In the wild, when plants grow they remove nutrients from the soil, but then when the plants die and decay these nutrients are returned directly to the soil. Humans tend not to return unused parts of harvested crops directly to the soil to enrich it, meaning that the soil gradually becomes less fertile.</p>", "instructions": "Complete the summary below. Write ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Why soil degradation could be a disaster for humans</h4><p>Healthy soil contains a large variety of bacteria and other microorganisms, as well as plant remains and {{14}}. It provides us with food and also with antibiotics, and its function in storing {{15}} has a significant effect on the climate. In addition, it prevents damage to property and infrastructure because it holds {{16}}.</p><p>If these microorganisms are lost, soil may lose its special properties. The main factor contributing to soil degradation is the {{17}} carried out by humans.</p>", "questions": [{"num": 14, "type": "text", "answers": ["minerals"]}, {"num": 15, "type": "text", "answers": ["carbon"]}, {"num": 16, "type": "text", "answers": ["water"]}, {"num": 17, "type": "text", "answers": ["agriculture"]}]}, {"id": "ex6", "title": "C13T4P3 - Book Review: The Happiness Industry (Jeremy Bentham extract)", "passage": "<p>It was the philosopher Jeremy Bentham who was more than anyone else responsible for the development of this way of thinking. Bentham was an astonishingly practical man; among his many schemes was a design for a printing device that could produce unforgeable banknotes, a proposal to have the government establish a national telegraph network, and a design for cheaply constructed apartments for the poor. He also drew up detailed plans for a prison named the Panopticon, in which prisoners would be kept in solitary confinement while being visible at all times to the guards, without being able to see them - a design intended to encourage self-discipline.</p><p>Bentham also proposed that the departments of government be linked together through a set of 'conversation tubes' enabling swift communication between them. He drew up plans for a 'frigidarium' to keep provisions such as meat, fish, fruit and vegetables fresh. If happiness is to be regarded as a science, it has to be measured, and Bentham suggested two ways in which this might be done.</p>", "instructions": "Complete the summary below using the box. Write the correct letter, A-G.", "summaryHtml": "<h4>Jeremy Bentham</h4><p><b>Word list:</b> A - measurement, B - security, C - efficiency, D - transport, E - observation, F - communication, G - preservation</p><p>Bentham proposed a method to improve {{30}} between government departments. He also developed a way to increase {{31}} of banknotes. In addition, he created a method for the {{32}} of food. His prison design allowed the constant {{33}} of prisoners. He also investigated possibilities for the {{34}} of happiness.</p>", "questions": [{"num": 30, "type": "text", "answers": ["F", "f"]}, {"num": 31, "type": "text", "answers": ["B", "b"]}, {"num": 32, "type": "text", "answers": ["G", "g"]}, {"num": 33, "type": "text", "answers": ["E", "e"]}, {"num": 34, "type": "text", "answers": ["A", "a"]}]}, {"id": "ex7", "title": "C14T1P2 - The first urban bike-sharing scheme", "passage": "<p>Provo, the organization that came up with the idea, was a group of Dutch activists who wanted to change society. They believed the scheme, in which free bikes were made available for everyone to use, was an answer to the perceived threats of air pollution and consumerism. They also distributed leaflets describing the dangers of cars and encouraging people to use the white bicycles instead. The police were opposed to Provo's initiatives and almost as soon as the white bikes were distributed around the city, they removed them.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>The first urban bike-sharing scheme</h4><p>Provo was a group of Dutch {{23}} who wanted to change society. They were concerned about damage to the environment and {{24}}. They handed out {{25}} which condemned the use of cars. Soon after the bikes were introduced, the {{26}} took them away.</p>", "questions": [{"num": 23, "type": "text", "answers": ["activists"]}, {"num": 24, "type": "text", "answers": ["consumerism"]}, {"num": 25, "type": "text", "answers": ["leaflets"]}, {"num": 26, "type": "text", "answers": ["police"]}]}, {"id": "ex8", "title": "C14T1P3 - Motivational factors and the hospitality industry (extract)", "passage": "<p>A study focusing on staff from a chain of themed restaurants in the United States was conducted to see whether fun activities at work improved motivation. It was found that fun activities had a favorable impact on performance, and manager support for fun had a favorable impact in reducing turnover. However, it should be noted that the framing of that fun must be carefully aligned with both organizational goals and employee characteristics.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Fun at work</h4><p>Research was carried out on staff at a chain of {{36}} in the United States. It was found that fun activities improved {{37}}. Management involvement led to lower staff {{38}}. However, activities must fit with company {{39}} and employee {{40}}.</p>", "questions": [{"num": 36, "type": "text", "answers": ["restaurants"]}, {"num": 37, "type": "text", "answers": ["performance"]}, {"num": 38, "type": "text", "answers": ["turnover"]}, {"num": 39, "type": "text", "answers": ["goals"]}, {"num": 40, "type": "text", "answers": ["characteristics"]}]}, {"id": "ex9", "title": "C14T2P2 - Back to the future of skyscraper design (extract)", "passage": "<p>Of particular interest were those built to the designs of John Shaw Billings, who designed hospital wards with high ceilings and large windows. Researchers put pathogens in the airstreams, modelled for someone with tuberculosis coughing in the wards, and found that they would not have harmed other patients. In fact, 19th-century hospital wards could generate up to 24 air changes an hour - that's similar to the performance of a modern-day operating theatre. Communal wards appropriate for certain patients would work just as well in today's hospitals, at a fraction of the energy cost.</p><p>The demand for improved ventilation was driven by a panicked public clamouring for buildings that could protect against what was thought to be the lethal threat of miasmas - toxic air that spread disease - right through to the cholera outbreaks in London and Paris during the 1850s.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Ventilation in 19th-century hospital wards</h4><p>Hospital wards designed by John Shaw Billings influenced later hospital {{19}}. Researchers found that {{20}} in the air, modelled on someone with {{21}}, would not have harmed other patients. Air in hospital {{22}} could change as often as in a modern operating theatre. Energy use could be reduced by placing more patients in {{23}} areas. Improved ventilation was demanded by the {{24}}, who feared toxic air known as {{25}}, and by the {{26}} epidemics in the mid-19th century.</p>", "questions": [{"num": 19, "type": "text", "answers": ["design", "designs"]}, {"num": 20, "type": "text", "answers": ["pathogens"]}, {"num": 21, "type": "text", "answers": ["tuberculosis"]}, {"num": 22, "type": "text", "answers": ["wards"]}, {"num": 23, "type": "text", "answers": ["communal"]}, {"num": 24, "type": "text", "answers": ["public"]}, {"num": 25, "type": "text", "answers": ["miasmas"]}, {"num": 26, "type": "text", "answers": ["cholera"]}]}, {"id": "ex10", "title": "C14T3P2 - Saving bugs to find new drugs (extract)", "passage": "<p>We use our knowledge of ecology as a guide to target our efforts. Insects secrete powerful poison for subduing prey and keeping it fresh for future consumption. There are even more insects that are masters of exploiting filthy habitats, where they are regularly challenged by thousands of micro-organisms, suggesting that there is certainly potential to find many compounds that can serve as or inspire new antibiotics.</p>", "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Research at Aberystwyth University</h4><p>The team uses their expertise in {{23}} as a guide. Insects produce compounds to overpower and preserve their {{24}}. Some compounds also help insects protect themselves from microbes in their {{25}}. Researchers hope these compounds could lead to the development of new {{26}}.</p>", "questions": [{"num": 23, "type": "text", "answers": ["ecology"]}, {"num": 24, "type": "text", "answers": ["prey"]}, {"num": 25, "type": "text", "answers": ["habitats"]}, {"num": 26, "type": "text", "answers": ["antibiotics"]}]}, {"id": "ex11", "title": "C14T4P3 - Marine Debris (extract)", "passage": "<p>Chelsea Rochman, an ecologist at the University of California, Davis, has been trying to answer a dismal question: Is everything terrible, or are things just very, very bad?</p><p>Rochman is a member of the National Center for Ecological Analysis and Synthesis's marine-debris working group, a collection of scientists who study, among other things, the growing problem of marine debris, also known as ocean trash. Plenty of studies have sounded alarm bells about the state of marine debris; in a recent paper published in the journal Ecology, Rochman and her colleagues set out to determine how many of those perceived risks are real.</p><p>Often, Rochman says, scientists will end a paper by speculating about the broader impacts of what they've found. For example, a study could show that certain seabirds eat plastic bags, and go on to warn that whole bird populations are at risk of dying out. But the truth was that nobody had yet tested those perceived threats, Rochman says. There wasn't a lot of information.</p><p>Rochman and her colleagues examined more than a hundred papers on the impacts of marine debris that were published through 2013. Within each paper, they asked what threats scientists had studied - 366 perceived threats in all - and what they'd actually found.</p><p>In 83 percent of cases, the perceived dangers of ocean trash were proven true. In the remaining cases, the working group found the studies had weaknesses in design and content which affected the validity of their conclusions - they lacked a control group, for example, or used faulty statistics.</p><p>Strikingly, Rochman says, only one well-designed study failed to find the effect it was looking for, an investigation of mussels ingesting microscopic bits. The plastic moved from the mussels' stomachs to their bloodstreams, scientists found, and stayed there for weeks - but didn't seem to stress out the shellfish.</p><p>While mussels may be fine eating trash, though, the analysis also gave a clearer picture of the many ways that ocean debris is bothersome.</p><p>Within the studies they looked at, most of the proven threats came from plastic debris, rather than other materials like metal or wood. Most of the dangers also involved large pieces of debris - animals getting entangled in trash, for example, or eating it and severely injuring themselves.</p><p>But a lot of ocean debris is microplastic, or pieces smaller than five millimeters. These may be ingredients used in cosmetics and toiletries, fibers shed by synthetic clothing in the wash, or eroded remnants of larger debris. Compared to the number of studies investigating large-scale debris, Rochman's group found little research on the effects of these tiny bits.</p><p>There are also, she adds, a lot of open questions about the ways that ocean debris can lead to sea-creature death. Many studies have looked at how plastic affects an individual animal, or that animal's tissues or cells, rather than whole populations. And in the lab, scientists often use higher concentrations of plastic than what's really in the ocean. None of that tells us how many birds or fish or sea turtles could die from plastic pollution - or how deaths in one species could affect that animal's predators, or the rest of the ecosystem.</p><p>We need to be asking more ecologically relevant questions, Rochman says. Usually, scientists don't know exactly how disasters such as a tanker accidentally spilling its whole cargo of oil and polluting huge areas of the ocean will affect the environment until after they've happened. We don't ask the right questions early enough, she says.</p>", "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.", "summaryHtml": "<h4>Findings related to marine debris</h4><p><b>Studies of marine debris found the biggest threats were</b></p><ul><li>plastic (not metal or wood)</li><li>bits of debris that were {{34}} (harmful to animals)</li></ul><p>There was little research into {{35}} e.g. from synthetic fibres.</p><p><b>Drawbacks of the studies examined</b></p><ul><li>most of them focused on individual animals, not entire {{36}}</li><li>the {{37}} of plastic used in the lab did not always reflect those in the ocean</li><li>there was insufficient information on numbers of animals which could be affected, the impact of a reduction in numbers on the {{38}} of that species, and the impact on the ecosystem</li></ul><p>Rochman says more information is needed on the possible impact of future {{39}} (e.g. involving oil).</p>", "questions": [{"num": 34, "type": "text", "answers": ["large"]}, {"num": 35, "type": "text", "answers": ["microplastic", "microplastics"]}, {"num": 36, "type": "text", "answers": ["populations"]}, {"num": 37, "type": "text", "answers": ["concentrations"]}, {"num": 38, "type": "text", "answers": ["predators"]}, {"num": 39, "type": "text", "answers": ["disasters"]}]}];
+
+const WEB3FORMS_ACCESS_KEY = "c3558409-9034-4024-a7bb-4c8f08b470b8";
+const ANSWER_KEY_LINK = "https://docs.google.com/document/d/1ireWLxLnY88LPaXf7wqkIM-vJ5WaHud_vbebv6KYf2A/edit?usp=sharing";
+
+let currentColor = "#fff59d";
+let currentEx = 0;
+let studentAnswers = {};
+let highlightLog = { passage: {}, question: {} };
+
+EXERCISES.forEach(function(ex){
+  studentAnswers[ex.id] = {};
+  highlightLog.passage[ex.id] = [];
+  highlightLog.question[ex.id] = [];
+});
+
+function startExam(){
+  var name = document.getElementById('studentName').value.trim();
+  var cls = document.getElementById('studentClass').value.trim();
+  if(!name || !cls){ alert('Please enter both your name and class.'); return; }
+  document.getElementById('startScreen').classList.add('hidden');
+  document.getElementById('examScreen').classList.remove('hidden');
+  buildNav();
+  renderExercise(0);
+}
+
+function buildNav(){
+  var nav = document.getElementById('exerciseNav');
+  nav.innerHTML = '';
+  EXERCISES.forEach(function(ex, i){
+    var b = document.createElement('button');
+    b.textContent = 'Passage ' + (i+1);
+    b.id = 'navbtn-' + i;
+    b.addEventListener('click', function(){ renderExercise(i); });
+    nav.appendChild(b);
+  });
+}
+
+function setColor(el){
+  document.querySelectorAll('.swatch').forEach(function(s){ s.classList.remove('active'); });
+  el.classList.add('active');
+  currentColor = el.getAttribute('data-color');
+}
+
+function makeHighlightHandler(paneType){
+  return function(){
+    var sel = window.getSelection();
+    if(!sel.rangeCount || sel.isCollapsed) return;
+    var range = sel.getRangeAt(0);
+    var container = document.getElementById(paneType === 'passage' ? 'passageContent' : 'questionContent');
+    if(!container.contains(range.commonAncestorContainer)) return;
+    var text = sel.toString().trim();
+    if(!text) return;
+    var mark = document.createElement('mark');
+    mark.style.backgroundColor = currentColor;
+    mark.addEventListener('click', function(ev){ ev.stopPropagation(); removeHighlight(mark); });
+    try{
+      range.surroundContents(mark);
+    }catch(e){
+      return;
+    }
+    sel.removeAllRanges();
+    var exId = EXERCISES[currentEx].id;
+    highlightLog[paneType][exId].push(text);
+  };
+}
+
+function removeHighlight(mark){
+  var parent = mark.parentNode;
+  while(mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+  parent.removeChild(mark);
+  parent.normalize();
+}
+
+function clearHighlights(){
+  ['passageContent','questionContent'].forEach(function(id){
+    document.getElementById(id).querySelectorAll('mark').forEach(function(m){
+      var parent = m.parentNode;
+      while(m.firstChild) parent.insertBefore(m.firstChild, m);
+      parent.removeChild(m);
+      parent.normalize();
+    });
+  });
+  var exId = EXERCISES[currentEx].id;
+  highlightLog.passage[exId] = [];
+  highlightLog.question[exId] = [];
+}
+
+function saveCurrentAnswers(){
+  var ex = EXERCISES[currentEx];
+  ex.questions.forEach(function(q){
+    var el = document.getElementById('blank-' + q.num);
+    if(el){
+      studentAnswers[ex.id][q.num] = el.value.trim();
+    }
+  });
+}
+
+function renderExercise(idx){
+  saveCurrentAnswers();
+  currentEx = idx;
+  var ex = EXERCISES[idx];
+
+  document.querySelectorAll('#exerciseNav button').forEach(function(b, i){
+    b.classList.toggle('active', i === idx);
+  });
+
+  document.getElementById('passageTitle').textContent = ex.title;
+  document.getElementById('passageContent').innerHTML = ex.passage;
+  document.getElementById('questionInstructions').textContent = ex.instructions;
+
+  var qHtml = ex.summaryHtml;
+  ex.questions.forEach(function(q){
+    var placeholder = '{{' + q.num + '}}';
+    var savedVal = studentAnswers[ex.id][q.num] || '';
+    var inputHtml = '<input type="text" class="blank" id="blank-' + q.num + '" data-qnum="' + q.num + '" value="' + savedVal.replace(/"/g,'&quot;') + '" placeholder="' + q.num + '" autocomplete="off">';
+    qHtml = qHtml.split(placeholder).join(inputHtml);
+  });
+  document.getElementById('questionContent').innerHTML = qHtml;
+
+  document.getElementById('passageContent').onmouseup = makeHighlightHandler('passage');
+  document.getElementById('questionContent').onmouseup = makeHighlightHandler('question');
+
+  document.getElementById('prevBtn').style.visibility = idx === 0 ? 'hidden' : 'visible';
+  var isLast = idx === EXERCISES.length - 1;
+  document.getElementById('nextBtn').style.display = isLast ? 'none' : 'inline-block';
+  document.getElementById('submitBtn').style.display = isLast ? 'inline-block' : 'none';
+
+  updateProgress();
+}
+
+function totalBlanksCount(){
+  var c = 0;
+  EXERCISES.forEach(function(ex){ c += ex.questions.length; });
+  return c;
+}
+
+function updateProgress(){
+  var answered = 0;
+  EXERCISES.forEach(function(ex){
+    ex.questions.forEach(function(q){
+      var v = studentAnswers[ex.id][q.num];
+      if(v && v.trim() !== '') answered++;
+    });
+  });
+  document.getElementById('progressFill').style.width = (answered / totalBlanksCount() * 100) + '%';
+}
+
+function changeExercise(dir){
+  var next = currentEx + dir;
+  if(next < 0 || next >= EXERCISES.length) return;
+  renderExercise(next);
+}
+
+function normalize(str){
+  return (str || '').toLowerCase().trim().replace(/[.,;!?'"]/g,'').replace(/\s+/g,' ');
+}
+
+function scoreExam(){
+  saveCurrentAnswers();
+  var correct = 0, total = 0;
+  var details = [];
+  EXERCISES.forEach(function(ex){
+    ex.questions.forEach(function(q){
+      total++;
+      var given = studentAnswers[ex.id][q.num] || '';
+      var isCorrect = q.answers.some(function(a){ return normalize(a) === normalize(given); });
+      if(isCorrect) correct++;
+      details.push({exTitle: ex.title, qnum: q.num, given: given, correct: isCorrect, accepted: q.answers.join(' / ')});
+    });
+  });
+  return {correct: correct, total: total, details: details};
+}
+
+function collectAllHighlights(){
+  var all = [];
+  EXERCISES.forEach(function(ex){
+    highlightLog.passage[ex.id].forEach(function(t){ all.push(t); });
+    highlightLog.question[ex.id].forEach(function(t){ all.push(t); });
+  });
+  var seen = {};
+  var unique = [];
+  all.forEach(function(t){
+    var trimmed = t.trim();
+    if(trimmed.length > 0 && !seen[trimmed]){
+      seen[trimmed] = true;
+      unique.push(trimmed);
+    }
+  });
+  return unique;
+}
+
+function submitExam(){
+  var result = scoreExam();
+  var finalScore = result.correct;
+  var totalBlanks = result.total;
+  var name = document.getElementById('studentName').value.trim();
+  var cls = document.getElementById('studentClass').value.trim();
+  var highlights = collectAllHighlights();
+
+  document.getElementById('examScreen').classList.add('hidden');
+  document.getElementById('scoreScreen').classList.remove('hidden');
+  var pct = Math.round((finalScore / totalBlanks) * 100);
+  document.getElementById('scoreCircle').style.setProperty('--pct', pct);
+  document.getElementById('scoreText').textContent = finalScore + '/' + totalBlanks;
+  document.getElementById('scorePercent').textContent = pct + '%';
+
+  var kwDiv = document.getElementById('kwSummary');
+  if(highlights.length){
+    var tagsHtml = '<h4>Keywords you highlighted (' + highlights.length + ')</h4>';
+    highlights.forEach(function(h){
+      tagsHtml += '<span class="kw-tag">' + h.replace(/</g,'&lt;') + '</span>';
+    });
+    kwDiv.innerHTML = tagsHtml;
+  } else {
+    kwDiv.innerHTML = '<p style="color:var(--muted);">No highlights were made during this session.</p>';
+  }
+
+  var statusEl = document.getElementById('submitStatus');
+  statusEl.textContent = 'Submitting your results...';
+
+  var detailsText = result.details.map(function(d){
+    return '[' + d.exTitle + '] Q' + d.qnum + ': your answer="' + d.given + '" | accepted="' + d.accepted + '" | ' + (d.correct ? 'CORRECT' : 'WRONG');
+  }).join('\n');
+
+  var payload = {
+    access_key: WEB3FORMS_ACCESS_KEY,
+    subject: 'IELTS Summary Completion submission - ' + name + ' (' + cls + ')',
+    from_name: name,
+    student_name: name,
+    student_class: cls,
+    score: finalScore + '/' + totalBlanks + ' (' + pct + '%)',
+    highlighted_keywords: highlights.join('; '),
+    answer_details: detailsText
+  };
+
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json', 'Accept':'application/json'},
+    body: JSON.stringify(payload)
+  }).then(function(resp){ return resp.json(); }).then(function(json){
+    if(json.success){
+      statusEl.innerHTML = '<span style="color:var(--success);">Your results have been sent to your teacher.</span>';
+    } else {
+      statusEl.innerHTML = '<span style="color:var(--danger);">Could not send automatically. Please tell your teacher your score.</span>';
+    }
+  }).catch(function(e){
+    statusEl.innerHTML = '<span style="color:var(--danger);">Network error - could not send automatically. Please tell your teacher your score.</span>';
+  });
+}
+
+function goToAnswerKey(){
+  window.open(ANSWER_KEY_LINK, '_blank');
+}
+
+document.getElementById('startBtn').addEventListener('click', startExam);
+document.getElementById('prevBtn').addEventListener('click', function(){ changeExercise(-1); });
+document.getElementById('nextBtn').addEventListener('click', function(){ changeExercise(1); });
+document.getElementById('submitBtn').addEventListener('click', submitExam);
+document.getElementById('answerKeyBtn').addEventListener('click', goToAnswerKey);
+document.getElementById('clearHlBtn').addEventListener('click', clearHighlights);
+document.querySelectorAll('.swatch').forEach(function(el){
+  el.addEventListener('click', function(){ setColor(el); });
+});
+</script>
+
+</body>
+</html>
