@@ -6,11 +6,11 @@
 <title>IELTS Reading: Summary Completion Practice</title>
 <style>
   :root{
-    --primary:#2563eb; --primary-dark:#1d4ed8; --bg:#f4f6fb; --card:#ffffff;
-    --border:#dbe2ea; --text:#1f2937; --muted:#6b7280; --success:#16a34a; --danger:#dc2626;
+    --primary:#c2410c; --primary-dark:#9a3412; --bg:#f7f5f2; --card:#ffffff;
+    --border:#e7e5e4; --text:#1c1917; --muted:#57534e; --success:#16a34a; --danger:#dc2626;
   }
   *{box-sizing:border-box;}
-  body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:0;}
+  body{font-family:ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;background:var(--bg);color:var(--text);margin:0;padding:0;}
   header{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;padding:24px 20px;text-align:center;}
   header h1{margin:0;font-size:1.6rem;}
   header p{margin:6px 0 0;opacity:.9;font-size:.95rem;}
@@ -21,14 +21,14 @@
   input[type=text],input[type=email]{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:1rem;}
   .btn{background:var(--primary);color:#fff;border:none;padding:12px 22px;border-radius:8px;font-size:1rem;cursor:pointer;font-weight:600;transition:background .2s;}
   .btn:hover{background:var(--primary-dark);}
-  .btn:disabled{background:#9ca3af;cursor:not-allowed;}
+  .btn:disabled{background:#a8a29e;cursor:not-allowed;}
   .btn-secondary{background:#fff;color:var(--primary);border:1px solid var(--primary);}
-  .btn-secondary:hover{background:#eef2ff;}
+  .btn-secondary:hover{background:#fff7ed;}
   #startScreen{max-width:600px;margin:40px auto;}
-  .highlight-toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap;background:#eef2ff;padding:10px;border-radius:8px;}
+  .highlight-toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap;background:#fff7ed;padding:10px;border-radius:8px;}
   .highlight-toolbar span{font-size:.85rem;color:var(--muted);}
   .swatch{width:24px;height:24px;border-radius:50%;cursor:pointer;border:2px solid transparent;}
-  .swatch.active{border-color:#1f2937;}
+  .swatch.active{border-color:#1c1917;}
   .exercise-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
   .exercise-nav button{padding:8px 14px;border-radius:20px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.85rem;}
   .exercise-nav button.active{background:var(--primary);color:#fff;border-color:var(--primary);}
@@ -37,26 +37,37 @@
   .pane h3{margin-top:0;font-size:1.1rem;color:var(--primary-dark);}
   .pane p{line-height:1.7;font-size:.97rem;}
   mark{padding:0 2px;border-radius:3px;cursor:pointer;}
-  .blank{display:inline-block;width:65px;min-width:50px;border:none;border-bottom:2px solid var(--primary);padding:1px 3px;font-weight:600;text-align:center;background:#f8fafc;border-radius:4px;font-size:.85rem;}
+  .blank{display:inline-block;width:65px;min-width:50px;border:none;border-bottom:2px solid var(--primary);padding:1px 3px;font-weight:600;text-align:center;background:#fafaf9;border-radius:4px;font-size:.85rem;}
   select.blank{width:auto;min-width:60px;max-width:170px;padding:1px 4px;cursor:pointer;font-size:.85rem;}
-  .blank:focus{outline:none;background:#eef2ff;}
+  .blank:focus{outline:none;background:#fff7ed;}
   .footer-nav{display:flex;justify-content:space-between;margin-top:20px;}
   #scoreScreen{max-width:700px;margin:40px auto;text-align:center;}
   #scoreScreen h2{font-size:2rem;color:var(--primary-dark);}
-  .score-circle{width:140px;height:140px;border-radius:50%;background:conic-gradient(var(--success) calc(var(--pct,0)*1%),#e5e7eb 0);display:flex;align-items:center;justify-content:center;margin:20px auto;position:relative;}
+  .score-circle{width:140px;height:140px;border-radius:50%;background:conic-gradient(var(--success) calc(var(--pct,0)*1%),#e7e5e4 0);display:flex;align-items:center;justify-content:center;margin:20px auto;position:relative;}
   .score-circle::before{content:"";width:110px;height:110px;background:#fff;border-radius:50%;position:absolute;}
   .score-circle span{position:relative;font-size:1.8rem;font-weight:700;}
   .hidden{display:none !important;}
-  .progress-bar{height:6px;background:#e5e7eb;border-radius:4px;margin-bottom:16px;overflow:hidden;}
+  .progress-bar{height:6px;background:#e7e5e4;border-radius:4px;margin-bottom:16px;overflow:hidden;}
   .progress-bar-fill{height:100%;background:var(--primary);transition:width .3s;}
-  .kw-summary{text-align:left;background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.85rem;}
+  .kw-summary{text-align:left;background:#fafaf9;border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.85rem;}
   .kw-summary h4{margin:0 0 8px;}
-  .kw-tag{display:inline-block;background:#e0e7ff;color:#3730a3;padding:2px 8px;border-radius:12px;margin:2px;font-size:.78rem;}
+  .kw-tag{display:inline-block;background:#fed7aa;color:#9a3412;padding:2px 8px;border-radius:12px;margin:2px;font-size:.78rem;}
   #submitStatus{margin-top:12px;font-size:.9rem;}
   .required-star{color:var(--danger);}
+
+  /* IELTS Harper Portal top bar */
+  .ih-topbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border-bottom:1px solid #e7e5e4;padding:10px 20px;margin:0}
+  .ih-brand{display:inline-flex;align-items:center;gap:10px;color:#f96c1b;font-weight:700;font-size:1.05rem;text-decoration:none;margin-right:auto}
+  .ih-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:#c2410c;color:#fff;font-size:.8rem;font-weight:800;text-decoration:none;flex:none}
+  .ih-link{color:#1c1917;font-weight:600;font-size:.88rem;text-decoration:none;border:1px solid #e7e5e4;border-radius:12px;padding:6px 12px}
+  .ih-link:hover{background:#fff7ed}
 </style>
 </head>
 <body>
+<nav class="ih-topbar" aria-label="IELTS Harper">
+  <a class="ih-brand" href="https://ieltsharper.github.io/portal/"><span class="ih-mark" aria-hidden="true">IH</span>IELTS Harper Portal</a>
+  <a class="ih-link" href="https://ieltsharper.github.io/portal/">&larr; Back to the portal</a>
+</nav>
 
 <header>
   <h1>IELTS Reading: Summary Completion Practice</h1>
