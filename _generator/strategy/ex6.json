@@ -1,0 +1,58 @@
+{
+ "step1": "Đây là một bài điểm sách (\"Book Review: The Happiness Industry\") về cuốn sách của William Davies bàn chuyện \"khoa học về hạnh phúc\". Tiêu đề bản tóm tắt chỉ vỏn vẹn là \"Jeremy Bentham\" – tức bản tóm tắt KHÔNG tóm cả bài mà chỉ tóm phần nói về con người Bentham và những việc ông làm. Đọc nhanh năm câu tóm tắt thấy ngay một danh sách hành động: cải thiện ... giữa các bộ trong chính phủ, làm tiền giấy không thể làm giả, giữ thực phẩm, thiết kế nhà tù để nhìn tù nhân liên tục, và đo hạnh phúc. Vậy các câu nằm gọn trong hai đoạn giữa bài: đoạn kể các phát minh của Bentham (conversation tubes, banknotes, frigidarium, Panopticon) và đoạn nói ông là người tiên phong của 'science of happiness'.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["30–33", "Summary completion with a box (A–G)", "Có – bám các phát minh của Bentham", "conversation tubes, departments of government, unforgeable banknotes, frigidarium, Panopticon, visible at all times"],
+  ["34", "Summary completion with a box (A–G)", "Có – bám cụm 'science of happiness'", "pioneer of the science of happiness, measured, pulse rate, money"]
+ ],
+ "typesNote": "Dạng này KHÁC summary completion thường: đáp án không lấy từ trong bài mà chọn trong hộp từ A–G, nên bài sẽ dùng từ ngữ hoàn toàn khác với từ trong hộp (bài viết 'conversation tubes' còn hộp cho 'communication'). Cách làm: đọc từng câu tóm tắt, tìm đúng chỗ trong bài, hiểu ý rồi mới quay lại hộp chọn từ khái quát hóa đúng ý đó. Hộp có 7 từ cho 5 chỗ trống nên luôn có 2 từ thừa – ở đây là C - efficiency và D - transport, cả hai đều nghe rất \"hợp lý\" nên phải loại bằng bằng chứng, không bằng cảm giác. Lưu ý về cách ghi đáp án: viết đúng dạng như trong đáp án mẫu, ví dụ \"F - communication\".",
+ "walk": [
+  {
+   "para": "Đoạn 1 (Happiness is the ultimate goal...)",
+   "idea": "Richard Layard và trường phái 'positive psychology' cho rằng hạnh phúc hiển nhiên là điều tốt, mục đích của chính phủ là tạo ra hạnh phúc tập thể, và khoa học này giúp đo lường được hạnh phúc.",
+   "answers": [],
+   "note": "Chưa có câu hỏi. Chỉ cần nhận ra bài sẽ nói về 'đo lường hạnh phúc' – ý này quay lại ở Q34."
+  },
+  {
+   "para": "Đoạn 2 (It is an astonishingly crude...)",
+   "idea": "Tác giả chê lối nghĩ đó là thô sơ; chính Jeremy Bentham (1748–1832) là người chịu trách nhiệm lớn nhất cho lối tư duy này: với ông, cái tốt của con người chỉ là khoái lạc và sự vắng mặt của đau đớn, còn mọi triết lý trước đó (Aristotle...) chỉ là siêu hình.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn 3 (But as William Davies notes...)",
+   "idea": "Davies nhắc rằng Bentham không chỉ là triết gia mà giống một 'public sector management consultant': ông gửi thư cho Bộ Nội vụ đề xuất nối các bộ bằng hệ thống 'conversation tubes', gửi cho Ngân hàng Anh thiết kế máy in tiền không thể làm giả, vẽ kế hoạch 'frigidarium' để giữ thực phẩm tươi, và thiết kế nhà tù 'Panopticon' nơi tù nhân bị giam riêng nhưng lúc nào cũng nằm trong tầm nhìn của lính canh.",
+   "answers": [
+    { "q": 30, "ans": "F - communication", "quote": "he wrote to the Home Office suggesting that the departments of government be linked together through a set of 'conversation tubes'", "how": "\"a method to improve [30] between government departments\" ↔ \"the departments of government be linked together through a set of 'conversation tubes'\". Ống để nói chuyện nối các bộ với nhau chính là phương tiện liên lạc → F - communication. Loại D - transport: 'tubes' dễ khiến ta nghĩ tới ống chuyển đồ, nhưng bài ghi rõ là 'conversation tubes' (ống hội thoại), chuyển lời nói chứ không chuyển vật. Loại C - efficiency: nối các bộ lại có thể làm việc hiệu quả hơn, nhưng đó là suy diễn của người đọc – bài không hề nói tới hiệu quả, mà chỉ nói tới việc kết nối." },
+    { "q": 31, "ans": "B - security", "quote": "to the Bank of England with a design for a printing device that could produce unforgeable banknotes", "how": "\"a way to increase [31] of banknotes\" ↔ \"a printing device that could produce unforgeable banknotes\". 'Unforgeable' = không thể làm giả; chống làm giả tiền chính là tăng tính an toàn/bảo mật của tờ tiền → B - security. Loại A - measurement và C - efficiency: máy in có thể nhanh hơn, nhưng điểm bài nhấn mạnh là đặc tính 'không làm giả được', tức bảo an, chứ không phải năng suất in." },
+    { "q": 32, "ans": "G - preservation", "quote": "He drew up plans for a 'frigidarium' to keep provisions such as meat, fish, fruit and vegetables fresh.", "how": "\"a method for the [32] of food\" ↔ \"a 'frigidarium' to keep provisions such as meat, fish, fruit and vegetables fresh\": provisions = food, còn 'keep ... fresh' (giữ tươi) chính là bảo quản → G - preservation. Loại B - security: ở đây không phải giữ cho thực phẩm khỏi bị lấy cắp mà giữ cho khỏi hỏng; 'security' đã được dùng cho tiền giấy ở Q31 và mỗi từ trong hộp chỉ dùng một lần." },
+    { "q": 33, "ans": "E - observation", "quote": "His celebrated design for a prison to be known as a 'Panopticon', in which prisoners would be kept in solitary confinement while being visible at all times to the guards", "how": "\"His prison design allowed the constant [33] of prisoners\" ↔ \"being visible at all times to the guards\": 'at all times' = constant, 'visible to the guards' = bị quan sát → E - observation. Loại B - security: nhà tù đúng là chuyện an ninh, nhưng câu hỏi hỏi cái mà thiết kế này CHO PHÉP làm liên tục, và thứ diễn ra liên tục trong bài là việc nhìn thấy tù nhân; hơn nữa bài còn nói Bentham muốn áp dụng Panopticon cho cả trường học và nhà máy – nơi không có vấn đề an ninh – nên điểm cốt lõi là giám sát." }
+   ],
+   "note": "Bốn câu 30–33 nằm liền nhau trong đúng một đoạn và theo đúng thứ tự Home Office → Bank of England → frigidarium → Panopticon. Khi đã khóa được đoạn này, hãy làm cả bốn câu một lượt rồi mới đi tiếp."
+  },
+  {
+   "para": "Đoạn 4 (Bentham was also a pioneer...)",
+   "idea": "Bentham cũng là người tiên phong của 'science of happiness': muốn coi hạnh phúc là khoa học thì phải đo được, và ông đề xuất hai cách đo – đo nhịp mạch, hoặc lấy tiền làm thước đo (hai món hàng cùng giá thì tạo ra lượng khoái cảm như nhau); ông thiên về cách thứ hai.",
+   "answers": [
+    { "q": 34, "ans": "A - measurement", "quote": "If happiness is to be regarded as a science, it has to be measured, and Bentham suggested two ways in which this might be done.", "how": "\"He also investigated possibilities for the [34] of happiness\" ↔ \"Bentham suggested two ways in which this might be done\" (hai cách để đo). 'Possibilities' ↔ 'two ways', còn danh từ tương ứng với động từ 'be measured' là 'measurement' → A - measurement. Chữ 'also' trong câu tóm tắt khớp với 'Bentham was also a pioneer', xác nhận đúng chỗ. Loại E - observation: đo nhịp mạch có vẻ như quan sát, nhưng cả đoạn xoay quanh việc lượng hóa (quantified, standard for quantification), và 'observation' đã dùng cho Panopticon." }
+   ]
+  },
+  {
+   "para": "Đoạn 5 (The Happiness Industry describes...)",
+   "idea": "Cuốn sách mô tả việc 'khoa học hạnh phúc' trở thành một phần của chủ nghĩa tư bản: các vấn đề kinh tế bị định nghĩa lại thành bệnh tâm lý, niềm tin rằng cảm giác bên trong đo được đã ảnh hưởng tới quản trị và quảng cáo; J B Watson – cha đẻ thuyết hành vi – chưa từng nghiên cứu một con người nào mà chỉ thí nghiệm trên chuột bạch, vậy mà mô hình của ông nay được áp dụng rộng rãi (ví dụ 'Behaviour Insights Team' ở Anh).",
+   "answers": [],
+   "note": "Đoạn này không có câu hỏi dù rất nhiều chi tiết hấp dẫn. Bản tóm tắt chỉ nói về Bentham nên có thể đọc lướt từ đây tới hết bài."
+  },
+  {
+   "para": "Đoạn 6 (Modern industrial societies...)",
+   "idea": "Xã hội công nghiệp hiện đại cần viễn cảnh hạnh phúc tăng mãi để tạo động lực lao động, nhưng theo tác giả, ý tưởng chính phủ chịu trách nhiệm mang lại hạnh phúc luôn là mối đe dọa với tự do của con người.",
+   "answers": []
+  }
+ ],
+ "tips": [
+  "Với dạng có hộp từ, đừng quét từ trong hộp vào bài (bài sẽ không chứa 'communication', 'preservation'...). Hãy làm ngược lại: tìm chỗ trong bài theo nội dung câu tóm tắt, hiểu ý, rồi mới chọn từ khái quát trong hộp.",
+  "Hai từ thừa trong hộp luôn là những từ nghe rất hợp: ở đây 'transport' bám vào chữ 'tubes' và 'efficiency' bám vào ý 'management consultant'. Loại chúng bằng câu chữ thật trong bài ('conversation tubes' = nói chuyện), không bằng cảm giác chung chung.",
+  "Mỗi từ trong hộp chỉ dùng một lần. Nếu đang phân vân giữa hai câu cùng muốn chọn 'security' (banknotes và prison), hãy xem câu nào khớp sát hơn – 'unforgeable' gắn chặt với security, còn 'visible at all times' gắn chặt với observation.",
+  "Danh từ hóa là chìa khóa: bài dùng động từ/tính từ ('be measured', 'keep ... fresh', 'visible', 'linked together'), hộp cho danh từ (measurement, preservation, observation, communication). Tập phản xạ chuyển qua lại giữa hai dạng này.",
+  "Ghi đáp án đúng định dạng được yêu cầu (chữ cái kèm từ, ví dụ \"G - preservation\"); chỉ viết mỗi từ mà quên chữ cái, hoặc ngược lại, đều có thể bị tính sai."
+ ]
+}

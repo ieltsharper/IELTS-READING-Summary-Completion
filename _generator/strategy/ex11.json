@@ -1,0 +1,102 @@
+{
+ "step1": "Tiêu đề \"Marine Debris\" (rác thải đại dương) cùng câu mở đầu – nhà sinh thái học Chelsea Rochman đi tìm lời đáp cho một câu hỏi ảm đạm – cho thấy bài là một bài báo khoa học thường thức: giới thiệu nhân vật → nhóm nghiên cứu làm gì → cách họ rà soát hơn một trăm bài báo → kết quả (bao nhiêu % nguy cơ là có thật) → những mối đe dọa đã được chứng minh → những lỗ hổng của các nghiên cứu → kiến nghị. Hai tiêu đề của phần notes định vị sẵn hai nửa sau của bài: \"Findings related to marine debris\" (những gì đã tìm được: nhựa, mảnh lớn, thiếu nghiên cứu về microplastic) và \"Drawbacks of the studies examined\" (hạn chế: chỉ xét cá thể, nồng độ nhựa trong phòng thí nghiệm, thiếu thông tin về số lượng và chuỗi thức ăn). Vậy Q34–39 nằm ở khoảng giữa–cuối bài, theo đúng thứ tự.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["34–39", "Note completion (ONE WORD ONLY)", "Có – bám hai tiêu đề của phần notes và các mốc nội dung", "biggest threats, plastic not metal or wood, little research, synthetic fibres, individual animals not entire, used in the lab, reduction in numbers, future (e.g. involving oil)"]
+ ],
+ "typesNote": "Dạng note completion đi theo đúng thứ tự bài đọc, và ở đây hai tiêu đề phụ chia bài làm hai khúc rõ rệt: khúc \"Findings\" ứng với các đoạn nói về kết quả phân tích (mảnh lớn, microplastic), khúc \"Drawbacks\" ứng với đoạn liệt kê các câu hỏi còn bỏ ngỏ. Cách đọc one-shot: lướt nhanh phần đầu (giới thiệu Rochman, cách rà soát 100+ bài báo, con số 83%, chuyện con trai mussels) vì ở đó không có chỗ trống nào, rồi đọc kỹ từ đoạn \"most of the proven threats came from plastic debris\" trở đi và chốt lần lượt 34 → 39. Mỗi ô chỉ MỘT từ, nên chú ý dạng số ít/số nhiều.",
+ "walk": [
+  {
+   "para": "Đoạn 1–2 (mở bài)",
+   "idea": "Chelsea Rochman, nhà sinh thái học ở UC Davis, thuộc nhóm nghiên cứu về marine debris; đã có nhiều nghiên cứu gióng chuông báo động, và nhóm của bà muốn xác định xem bao nhiêu nguy cơ được cho là có thật thì thực sự có thật.",
+   "answers": [],
+   "note": "Phần mở bài chỉ nêu nhân vật và mục tiêu nghiên cứu, không có chỗ trống. Đọc lấy ý trong vài giây."
+  },
+  {
+   "para": "Đoạn 3–4 (cách làm)",
+   "idea": "Các nhà khoa học hay kết bài bằng suy đoán về tác động rộng hơn (ví dụ chim biển ăn túi nilon nên cả quần thể có nguy cơ tuyệt chủng) mà chưa ai kiểm chứng; nhóm Rochman rà hơn một trăm bài báo công bố đến năm 2013 và thống kê 366 nguy cơ được nêu.",
+   "answers": [],
+   "note": "Các con số 100+, 366, 2013 rất dễ bị hỏi ở dạng khác, nhưng phần notes của bài này không hỏi số liệu – đừng mất thời gian ở đây."
+  },
+  {
+   "para": "Đoạn 5–7 (kết quả chung)",
+   "idea": "83% nguy cơ được chứng minh là có thật; số còn lại nằm ở các nghiên cứu thiết kế yếu (thiếu nhóm đối chứng, thống kê sai). Chỉ duy nhất một nghiên cứu thiết kế tốt không tìm thấy tác động: hạt nhựa siêu nhỏ đi từ dạ dày sang máu con trai mussels và nằm lại nhiều tuần nhưng không gây stress cho chúng.",
+   "answers": [],
+   "note": "Chi tiết mussels là ngoại lệ thú vị, dễ hút sự chú ý, nhưng không có câu hỏi nào ở đây."
+  },
+  {
+   "para": "Đoạn 8 (mối đe dọa đã được chứng minh)",
+   "idea": "Trong các nghiên cứu được xem xét, phần lớn mối đe dọa đã được chứng minh đến từ rác nhựa chứ không phải kim loại hay gỗ, và phần lớn nguy cơ liên quan tới những mảnh rác lớn – động vật bị mắc kẹt trong rác hoặc nuốt phải và bị thương nặng.",
+   "answers": [
+    {
+     "q": 34,
+     "ans": "large",
+     "quote": "Most of the dangers also involved large pieces of debris - animals getting entangled in trash, for example, or eating it and severely injuring themselves.",
+     "how": "Dòng notes \"bits of debris that were ___ (harmful to animals)\" ánh xạ thẳng vào câu này: \"bits of debris\" ↔ \"pieces of debris\", phần trong ngoặc \"(harmful to animals)\" ↔ \"animals getting entangled... or eating it and severely injuring themselves\". Chỗ trống đứng sau \"were\" nên cần một tính từ → \"large\". Lưu ý notes viết \"bits\" (mảnh nhỏ) khiến nhiều bạn phản xạ điền \"small\" hay \"tiny\" – nhưng bài khẳng định ngược lại: nguy cơ đã chứng minh được chủ yếu đến từ mảnh LỚN; \"small/tiny\" là chuyện của microplastic ở đoạn sau."
+    }
+   ],
+   "note": "Dòng \"plastic (not metal or wood)\" ngay phía trên trong notes chính là câu đầu của đoạn này – dùng nó để xác nhận mình đang đọc đúng chỗ trước khi điền câu 34."
+  },
+  {
+   "para": "Đoạn 9 (microplastic)",
+   "idea": "Rất nhiều rác đại dương là \"microplastic\" – mảnh nhỏ hơn 5 mm, có thể là thành phần mỹ phẩm, sợi rụng ra từ quần áo tổng hợp khi giặt, hoặc mảnh vỡ của rác lớn; so với số nghiên cứu về rác cỡ lớn, nhóm Rochman thấy rất ít nghiên cứu về các mẩu li ti này.",
+   "answers": [
+    {
+     "q": 35,
+     "ans": "microplastic",
+     "quote": "But a lot of ocean debris is 'microplastic', or pieces smaller than five millimeters. These may be ingredients used in cosmetics and toiletries, fibers shed by synthetic clothing in the wash ... Rochman's group found little research on the effects of these tiny bits.",
+     "how": "\"There was little research into ___ e.g. from synthetic fibres\" ↔ \"found little research on the effects of these tiny bits\", mà \"these tiny bits\" chính là microplastic đã được định nghĩa ở đầu đoạn; phần \"e.g. from synthetic fibres\" ↔ \"fibers shed by synthetic clothing in the wash\" xác nhận đúng đối tượng. Chỗ trống cần danh từ chỉ loại rác → \"microplastic\" (đáp án cũng chấp nhận \"microplastics\"). Không điền \"fibres\" vì đó mới là một ví dụ nguồn gốc mà chính đề đã nêu sẵn sau \"e.g.\", cũng không điền \"effects\" vì đó là từ nối trong bài chứ không phải thứ bị thiếu nghiên cứu."
+    }
+   ]
+  },
+  {
+   "para": "Đoạn 10 (những lỗ hổng của nghiên cứu)",
+   "idea": "Còn nhiều câu hỏi bỏ ngỏ về cách rác đại dương gây chết sinh vật biển: nhiều nghiên cứu chỉ xét một cá thể hoặc mô, tế bào của nó thay vì cả quần thể; trong phòng thí nghiệm người ta thường dùng nồng độ nhựa cao hơn thực tế ngoài biển; và không gì trong số đó cho biết bao nhiêu con chim, cá, rùa biển có thể chết, hay cái chết của một loài ảnh hưởng thế nào đến loài săn mồi của nó và phần còn lại của hệ sinh thái.",
+   "answers": [
+    {
+     "q": 36,
+     "ans": "populations",
+     "quote": "Many studies have looked at how plastic affects an individual animal, or that animal's tissues or cells, rather than whole populations.",
+     "how": "\"most of them focused on individual animals, not entire ___\" gần như trùng nguyên văn: \"focused on\" ↔ \"looked at\", \"not entire\" ↔ \"rather than whole\" → \"populations\". Phải giữ số nhiều \"populations\" đúng như trong bài; \"tissues\" hay \"cells\" là bẫy vì chúng nằm cùng vế với \"individual animal\" (cấp độ nhỏ), trong khi chỗ trống cần cấp độ lớn hơn cá thể."
+    },
+    {
+     "q": 37,
+     "ans": "concentrations",
+     "quote": "And in the lab, scientists often use higher concentrations of plastic than what's really in the ocean.",
+     "how": "\"the ___ of plastic used in the lab did not always reflect those in the ocean\" ↔ \"use higher concentrations of plastic than what's really in the ocean\": \"did not always reflect those in the ocean\" là cách diễn đạt lại của \"higher... than what's really in the ocean\". Chỗ trống đứng sau \"the\" và trước \"of plastic\" nên cần danh từ → \"concentrations\"; chữ \"those\" (số nhiều) trong đề cũng là tín hiệu phải điền số nhiều."
+    },
+    {
+     "q": 38,
+     "ans": "predators",
+     "quote": "None of that tells us how many birds or fish or sea turtles could die from plastic pollution - or how deaths in one species could affect that animal's predators, or the rest of the ecosystem.",
+     "how": "Dòng notes liệt kê đúng ba ý của câu này theo thứ tự: \"insufficient information on numbers of animals which could be affected\" ↔ \"how many birds or fish or sea turtles could die\"; \"the impact of a reduction in numbers on the ___ of that species\" ↔ \"how deaths in one species could affect that animal's predators\" (\"a reduction in numbers\" ↔ \"deaths\", \"that species\" ↔ \"that animal's\"); \"the impact on the ecosystem\" ↔ \"the rest of the ecosystem\". Chỗ trống rơi đúng vào \"predators\" – loài ăn thịt phía trên trong chuỗi thức ăn. Không điền \"ecosystem\" vì từ đó đã nằm ở vế cuối của chính dòng notes."
+    }
+   ],
+   "note": "Ba câu 36–37–38 nằm gọn trong một đoạn và đúng theo thứ tự câu văn. Khi notes dùng dấu chấm phẩy/xuống dòng để liệt kê, hãy đối chiếu từng gạch đầu dòng với từng mệnh đề của đoạn – mỗi gạch đầu dòng thường là một mệnh đề."
+  },
+  {
+   "para": "Đoạn 11 (kiến nghị của Rochman)",
+   "idea": "Rochman cho rằng cần đặt những câu hỏi mang tính sinh thái hơn: thường thì mãi đến khi thảm họa xảy ra – chẳng hạn một tàu chở dầu làm tràn toàn bộ lượng dầu và gây ô nhiễm vùng biển rộng lớn – các nhà khoa học mới biết môi trường bị ảnh hưởng ra sao; đặt câu hỏi sớm hơn thì mới ngăn được tình hình xấu đi.",
+   "answers": [
+    {
+     "q": 39,
+     "ans": "disasters",
+     "quote": "Usually, scientists don't know exactly how disasters such as a tanker accidentally spilling its whole cargo of oil and polluting huge areas of the ocean will affect the environment until after they've happened.",
+     "how": "\"more information is needed on the possible impact of future ___ (e.g. involving oil)\" ↔ \"scientists don't know exactly how disasters such as a tanker accidentally spilling its whole cargo of oil... will affect the environment\": \"(e.g. involving oil)\" khớp đúng với ví dụ tàu chở dầu, còn \"future\" ↔ \"until after they've happened\" (chỉ biết sau khi đã xảy ra, tức cần biết trước). Chỗ trống cần danh từ số nhiều sau \"future\" → \"disasters\". Không điền \"tanker\" hay \"oil\" vì đó chỉ là ví dụ cụ thể mà đề đã đặt trong ngoặc \"e.g.\"; cũng không điền \"spills\" – từ trong bài là động từ \"spilling\", không phải danh từ ở vị trí này."
+    }
+   ]
+  },
+  {
+   "para": "Đoạn 12–13 (kết bài)",
+   "idea": "Đặt đúng câu hỏi giúp nhà hoạch định chính sách và công chúng biết nên tập trung vào đâu: \"Great Pacific Garbage Patch\" nghe như một hòn đảo rác khổng lồ nhưng thực tế phần lớn rác rất nhỏ hoặc chìm dưới mặt nước, và một nghiên cứu mô phỏng cho thấy đặt thiết bị thu gom gần bờ lại hiệu quả hơn; Rochman nhấn mạnh việc xóa bỏ những ngộ nhận này là rất quan trọng.",
+   "answers": [],
+   "note": "Phần kết không có chỗ trống nào – nếu bạn đọc đến đây mà vẫn còn câu chưa điền thì gần như chắc chắn đã bỏ sót ở đoạn 10."
+  }
+ ],
+ "tips": [
+  "Đừng để chữ \"bits\" ở câu 34 đánh lừa: đề và bài dùng từ khác nhau cho cùng một thứ (bits = pieces), còn tính từ cần điền lại là \"large\" chứ không phải \"small\".",
+  "Khi đề đã cho ví dụ trong ngoặc (\"e.g. from synthetic fibres\", \"e.g. involving oil\"), đáp án luôn là từ KHÁI QUÁT hơn ví dụ đó (microplastic, disasters), không bao giờ là chính ví dụ.",
+  "Bám tín hiệu ngữ pháp để chọn dạng từ: sau \"were\" cần tính từ (large), sau \"the ... of plastic\" cần danh từ (concentrations), còn \"those\" và \"not entire\" báo hiệu danh từ số nhiều.",
+  "Hai tiêu đề phụ trong phần notes (\"Findings\" và \"Drawbacks\") tương ứng với hai khúc liền nhau ở nửa sau bài; nếu đang đọc đoạn nói về điểm yếu của nghiên cứu mà chưa điền xong nhóm \"Findings\" thì phải quay lại đúng một đoạn, chứ không phải đọc lại cả bài."
+ ]
+}

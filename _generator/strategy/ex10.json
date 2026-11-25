@@ -1,0 +1,93 @@
+{
+ "step1": "Tiêu đề \"Saving bugs to find new drugs\" cho biết bài nói về việc đi tìm thuốc mới từ côn trùng. Mạch bài đoán được ngay: con người từ xưa đã lấy thuốc từ thiên nhiên → ngành dược chuyển sang tổng hợp trong phòng thí nghiệm → nay quay lại với thiên nhiên (bioprospecting) → vì sao côn trùng là mỏ vàng → vài hợp chất đã tìm được → vì sao côn trùng vẫn bị bỏ quên → cách nhóm tác giả khắc phục → công nghệ gen giúp sản xuất lượng lớn → lý do bảo tồn. Quan trọng nhất: tiêu đề phần tóm tắt là \"Research at Aberystwyth University\", tức cả bốn chỗ trống Q23–26 chỉ nằm trong đoạn nói về nhóm nghiên cứu ở Aberystwyth (đoạn G) – những đoạn trước đó chỉ là nền, không cần dò từng chữ.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["23–26", "Summary completion (ONE WORD ONLY)", "Có – bám tên riêng ở tiêu đề phần tóm tắt", "Aberystwyth University, knowledge in ___ as a guide, overpower and preserve, protect themselves from microbes, development of new ___"]
+ ],
+ "typesNote": "Summary completion luôn đi theo đúng thứ tự bài đọc, và ở đây phần tóm tắt có tiêu đề riêng (\"Research at Aberystwyth University\") nên cả nhóm bị khóa chặt trong một đoạn duy nhất. Chiến thuật one-shot: đọc lướt A–F để nắm mạch, đến đoạn G thì đọc kỹ từng câu và chốt luôn cả bốn câu, sau đó chỉ cần kiểm tra nhanh H–I xem có chi tiết nào trùng hơn không. Mỗi chỗ trống chỉ được điền MỘT từ, nên luôn tự hỏi: trong cụm tìm được, từ nào là từ cốt lõi?",
+ "walk": [
+  {
+   "para": "Đoạn A",
+   "idea": "Rất nhiều thuốc bắt nguồn từ các hợp chất trong sinh vật sống; việc tìm thuốc từ thiên nhiên đã có từ hàng chục nghìn năm, thậm chí các loài linh trưởng khác cũng biết tự chữa bệnh bằng côn trùng và cây rừng.",
+   "answers": [],
+   "note": "Đoạn mở bài chỉ nêu bối cảnh lịch sử, không có chỗ trống nào. Đọc lướt lấy ý là đủ."
+  },
+  {
+   "para": "Đoạn B",
+   "idea": "Ngành dược đã hoàn thiện cách chiết xuất và thử nghiệm hợp chất tự nhiên, nhưng rồi chuyển hướng sang tự thiết kế hợp chất trong phòng thí nghiệm, vì tìm và thu đủ lượng hợp chất trong tự nhiên quá khó.",
+   "answers": [],
+   "note": "Ba trở ngại nêu ở đây (gom đủ sinh vật, phân lập, sản xuất số lượng lớn) sẽ quay lại ở đoạn F và H – nhớ mạch này để khỏi phải đọc lại."
+  },
+  {
+   "para": "Đoạn C",
+   "idea": "Thuốc tổng hợp trong phòng thí nghiệm chỉ thành công một phần, nên người ta quay lại với sản phẩm tự nhiên; khả năng \"đào\" bộ gen cộng với nguy cơ kháng kháng sinh đưa bioprospecting trở lại.",
+   "answers": [],
+   "note": "Đây là chỗ bài định nghĩa bioprospecting = \"the search for useful compounds in nature\"."
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Côn trùng thống trị môi trường cạn, tương tác với vô số sinh vật khác nên tiến hóa ra kho hợp chất tấn công – phòng vệ khổng lồ, song tiềm năng làm thuốc của chúng vẫn chưa được khai thác.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn E",
+   "idea": "Trong số rất ít côn trùng đã được nghiên cứu, đã có vài hợp chất hứa hẹn: alloferon từ ấu trùng ruồi nhặng dùng làm thuốc kháng virus và chống khối u, nọc ong bắp cày Polybia paulista có tiềm năng trị ung thư.",
+   "answers": [],
+   "note": "Đoạn E nói về các hợp chất ĐÃ tìm được nói chung, không phải nghiên cứu của Aberystwyth, nên không lấy đáp án ở đây dù có nhiều từ hấp dẫn như \"antimicrobial\", \"cancer treatment\"."
+  },
+  {
+   "para": "Đoạn F",
+   "idea": "Ba lý do khiến côn trùng ít được chú ý: số loài quá lớn nên không thể dò bừa, cơ thể và tuyến tiết quá nhỏ nên khó lấy đủ lượng hợp chất, và nhiều loài hiếm gặp lại khó nuôi nhốt.",
+   "answers": [],
+   "note": "Câu \"without some manner of targeted approach\" ở đây chính là bản lề dẫn sang đoạn G: nhóm Aberystwyth giải bài toán đó bằng cách dùng sinh thái học để khoanh vùng."
+  },
+  {
+   "para": "Đoạn G",
+   "idea": "Nhóm tác giả ở Đại học Aberystwyth dùng hiểu biết về sinh thái học để khoanh vùng loài cần nghiên cứu: những côn trùng tiết nọc độc để khống chế và giữ tươi con mồi, và những côn trùng sống trong môi trường bẩn (phân, xác chết) nên phải có nhiều hợp chất kháng khuẩn – từ đó có thể tìm ra kháng sinh mới.",
+   "answers": [
+    {
+     "q": 23,
+     "ans": "ecology",
+     "quote": "we use our knowledge of ecology as a guide to target our efforts",
+     "how": "\"The team uses their expertise in ___ as a guide\" gần như trùng nguyên văn: \"expertise\" ↔ \"knowledge\", \"as a guide\" giữ nguyên. Chỗ trống cần MỘT danh từ chỉ lĩnh vực chuyên môn → \"ecology\". Không điền \"natural history\" (hai từ, và cụm đó nằm ở đoạn H) cũng không điền \"ecological\" – phải giữ đúng dạng danh từ như trong bài."
+    },
+    {
+     "q": 24,
+     "ans": "prey",
+     "quote": "the many insects that secrete powerful poison for subduing prey and keeping it fresh for future consumption",
+     "how": "\"produce compounds to overpower and preserve their ___\" là bản diễn đạt lại của \"secrete powerful poison for subduing prey and keeping it fresh\": \"produce compounds\" ↔ \"secrete powerful poison\", \"overpower\" ↔ \"subduing\", \"preserve\" ↔ \"keeping it fresh\". Hai động từ trong câu hỏi cùng chung một tân ngữ, mà trong bài tân ngữ của \"subduing\" là \"prey\" (còn \"it\" ở vế sau cũng chính là prey) → đáp án \"prey\". Không lấy \"food\" hay \"consumption\": bài nói con mồi được giữ tươi để ăn sau, chứ \"consumption\" là việc ăn chứ không phải thứ bị giữ tươi."
+    },
+    {
+     "q": 25,
+     "ans": "habitats",
+     "quote": "There are even more insects that are masters of exploiting filthy habitats, such as faeces and carcasses, where they are regularly challenged by thousands of micro-organisms. These insects have many antimicrobial compounds for dealing with pathogenic bacteria and fungi",
+     "how": "\"protect themselves from microbes in their ___\" ↔ \"filthy habitats... where they are regularly challenged by thousands of micro-organisms\" + \"antimicrobial compounds for dealing with pathogenic bacteria and fungi\" (\"microbes\" ↔ \"micro-organisms / bacteria and fungi\"; \"protect themselves\" ↔ \"dealing with\"). Chỗ trống đứng sau \"in their\" nên cần danh từ chỉ nơi chốn: \"habitats\". Giữ nguyên số nhiều như trong bài, và không điền \"faeces\" hay \"carcasses\" – đó chỉ là hai ví dụ cụ thể của habitats, không bao trùm được ý."
+    },
+    {
+     "q": 26,
+     "ans": "antibiotics",
+     "quote": "suggesting that there is certainly potential to find many compounds that can serve as or inspire new antibiotics",
+     "how": "\"Researchers hope these compounds could lead to the development of new ___\" ↔ \"there is certainly potential to find many compounds that can serve as or inspire new antibiotics\": \"hope... could lead to\" ↔ \"there is certainly potential\", và cụm \"new ___\" trùng khớp với \"new antibiotics\". Bẫy ở đây là \"antimicrobial\" xuất hiện ngay câu trước, nhưng đó là tính từ mô tả hợp chất côn trùng đang có, còn cái sẽ được PHÁT TRIỂN mới là \"antibiotics\"; cũng không điền \"drugs\" hay \"medicines\" vì những từ đó nằm ở tiêu đề và đoạn I, không phải ở câu này."
+    }
+   ],
+   "note": "Cả bốn câu nằm gọn trong đoạn G và đúng theo thứ tự câu văn: ecology (câu 1) → prey (câu 2) → habitats (câu 3) → antibiotics (câu cuối). Khi phần tóm tắt có tiêu đề gắn tên một trường/nhóm nghiên cứu, hãy tin vào tiêu đề đó và dồn sức đọc kỹ đúng một đoạn."
+  },
+  {
+   "para": "Đoạn H",
+   "idea": "Hiểu biết về lịch sử tự nhiên chỉ chỉ hướng chứ không giải quyết được việc lấy đủ hợp chất; may thay nay có thể cắt đoạn DNA mã hóa hợp chất rồi cấy vào dòng tế bào để sản xuất lượng lớn, dù chặng đường ra sản phẩm thương mại còn rất dài.",
+   "answers": [],
+   "note": "Đoạn H trả lời cho trở ngại \"không đủ nguyên liệu\" ở đoạn F, nhưng phần tóm tắt dừng ở ý \"kháng sinh mới\" nên không có chỗ trống nào ở đây."
+  },
+  {
+   "para": "Đoạn I",
+   "idea": "Mỗi mảng hoang dã mất đi là một loại thuốc tiềm năng mất đi; động lực chính của tác giả là bảo tồn – làm cho mọi người nghĩ khác về giá trị của thiên nhiên.",
+   "answers": []
+  }
+ ],
+ "tips": [
+  "Tiêu đề của phần tóm tắt (\"Research at Aberystwyth University\") là chìa khóa định vị mạnh nhất: nó cho biết cả nhóm câu chỉ nằm trong một đoạn, khỏi phải rà cả bài.",
+  "ONE WORD ONLY nghĩa là phải tách lấy từ cốt lõi trong cụm: từ \"filthy habitats\" chỉ lấy \"habitats\", từ \"new antibiotics\" chỉ lấy \"antibiotics\".",
+  "Chép đúng dạng từ như trong bài: \"ecology\" chứ không phải \"ecological\", \"habitats\" số nhiều chứ không phải \"habitat\" – sai dạng là mất điểm dù hiểu đúng ý.",
+  "Bài này rải rất nhiều từ khoa học hấp dẫn (antimicrobial, antiviral, antitumor, bioprospecting) ở các đoạn B, C, E. Chúng là bẫy cho người scan từ khóa mà không bám đúng đoạn G."
+ ]
+}

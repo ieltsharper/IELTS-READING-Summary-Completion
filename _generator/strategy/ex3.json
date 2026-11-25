@@ -1,0 +1,67 @@
+{
+ "step1": "Tiêu đề \"How baby talk gives infant brains a boost\" cho biết bài nói về kiểu nói chuyện với trẻ sơ sinh (giọng cao, cường điệu, lặp đi lặp lại) và tác động của nó tới não bộ trẻ. Bài báo khoa học phổ thông kiểu này thường có cấu trúc: mở đầu giới thiệu hiện tượng (A–B) rồi lần lượt điểm qua từng nghiên cứu, mỗi nghiên cứu một đoạn (C, D, E, F). Tiêu đề bản tóm tắt \"Research into how parents talk to babies\" và hai đoạn tóm tắt mở bằng \"Researchers at Washington State University\" và \"another study carried out by scientists from the University of Washington and the University of Connecticut\" cho thấy nhóm câu hỏi chỉ phủ hai nghiên cứu đầu, tức đoạn C và đoạn D – không cần đọc kỹ E và F.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["18–23", "Summary completion (NO MORE THAN TWO WORDS)", "Có – bám tên trường đại học", "Washington State University, specialised computer programs, idea known as, University of Connecticut, age two"]
+ ],
+ "typesNote": "Một nhóm duy nhất, theo đúng thứ tự bài: Q18–21 nằm gọn trong đoạn C (nghiên cứu của Mark VanDam ở Washington State University), Q22–23 nằm gọn trong đoạn D (nghiên cứu của University of Washington và University of Connecticut). Cẩn thận hai tên trường rất giống nhau: \"Washington State University at Spokane\" (đoạn C) khác \"University of Washington\" (đoạn D) – đọc sai tên là lấy nhầm cả bốn đáp án. Đề cho phép tối đa hai từ nên có thể điền cụm, nhưng vẫn phải là cụm ngắn nhất đủ nghĩa.",
+ "walk": [
+  {
+   "para": "Đoạn C",
+   "idea": "Nghiên cứu của Mark VanDam (Washington State University at Spokane): bố không dùng baby talk như mẹ, và điều đó hoàn toàn ổn. Bố không nâng cao độ giọng khi nói với con; vai trò của bố được giải thích bằng 'bridge hypothesis' (1975) – bố dùng ngôn ngữ ít 'gia đình' hơn để bắc cầu cho con tới kiểu nói mà con sẽ nghe ngoài xã hội, nhờ vậy con có vốn kiểu nói rộng hơn để tập.",
+   "answers": [
+    {
+     "q": 18,
+     "ans": "recording devices",
+     "quote": "Mark VanDam of Washington State University at Spokane and colleagues equipped parents with recording devices and speech-recognition software to study the way they interacted with their youngsters during a normal day.",
+     "how": "Câu tóm tắt bám sát nguyên văn: \"used ___, together with specialised computer programs\" ↔ \"equipped parents with recording devices and speech-recognition software\" (specialised computer programs chính là cách diễn giải của speech-recognition software), còn \"to analyse how parents interacted with their babies during a normal day\" ↔ \"to study the way they interacted with their youngsters during a normal day\" gần như trùng khít. Chỗ trống đứng trước \"together with\" nên lấy đúng thành phần còn lại của cặp: \"recording devices\" (hai từ, vừa đủ giới hạn)."
+    },
+    {
+     "q": 19,
+     "ans": "dads",
+     "quote": "But we found that dads aren't doing the same thing. Dads didn't raise their pitch or fundamental frequency when they talked to kids.",
+     "how": "\"___ tended not to modify their ordinary speech patterns when interacting with their babies\" ↔ \"Dads didn't raise their pitch or fundamental frequency when they talked to kids\": không nâng cao độ giọng tức là không thay đổi cách nói thường ngày. Đáp án là \"dads\" (hoặc \"fathers\", cũng có trong bài ở câu \"fathers use less familial language\"). Bẫy là \"moms\": câu trước đó nói \"moms do exactly what you'd expect\", tức mẹ CÓ thay đổi giọng – ngược hẳn với chỗ trống. Chú ý chữ \"But\" đánh dấu sự tương phản."
+    },
+    {
+     "q": 20,
+     "ans": "bridge hypothesis",
+     "quote": "Their role may be rooted in what is called the bridge hypothesis, which dates back to 1975. It suggests that fathers use less familial language to provide their children with a bridge to the kind of speech they'll hear in public.",
+     "how": "\"According to an idea known as the ___\" ↔ \"what is called the bridge hypothesis\" (an idea known as ↔ what is called – dấu hiệu gọi tên một giả thuyết). Phần sau của câu tóm tắt xác nhận: \"they may use a more adult type of speech to prepare infants for the language they will hear outside the family home\" ↔ \"use less familial language to provide their children with a bridge to the kind of speech they'll hear in public\" (outside the family home ↔ in public, less familial ↔ more adult). Điền đúng tên giả thuyết gồm hai từ, viết thường như trong bài; không thêm \"the\" vì mạo từ đã nằm trong câu tóm tắt."
+    },
+    {
+     "q": 21,
+     "ans": "repertoire",
+     "quote": "The idea is that a kid gets to practice a certain kind of speech with mom and another kind of speech with dad, so the kid then has a wider repertoire of kinds of speech to practice",
+     "how": "\"hearing baby talk from one parent and 'normal' language from the other\" ↔ \"a certain kind of speech with mom and another kind of speech with dad\"; \"expands the baby's ___ of types of speech which they can practise\" ↔ \"has a wider repertoire of kinds of speech to practice\" (expands ↔ wider, types ↔ kinds). Cấu trúc \"___ of types of speech\" lặp y hệt \"repertoire of kinds of speech\" nên chỗ trống chỉ có thể là danh từ \"repertoire\" – một từ, số ít, chép đúng chính tả."
+    }
+   ],
+   "note": "Cả bốn câu đầu nằm trong một đoạn duy nhất và theo đúng thứ tự xuất hiện. Khi thấy một đoạn tóm tắt chỉ xoay quanh một nghiên cứu, hãy đọc chậm từ đầu đến cuối đúng đoạn đó thay vì nhảy cóc giữa các đoạn."
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Nghiên cứu của University of Washington và University of Connecticut: 26 trẻ được mặc áo gi-lê ghi âm suốt tám tiếng mỗi ngày. Bố mẹ càng dùng nhiều baby talk thì trẻ càng bi bô; khi gặp lại lúc hai tuổi, những trẻ nghe nhiều baby talk có vốn từ vượt trội, bất kể hoàn cảnh kinh tế - xã hội, và hiệu quả rõ nhất khi nói một-một.",
+   "answers": [
+    {
+     "q": 22,
+     "ans": "audio-recording vests",
+     "quote": "fitting 26 children with audio-recording vests that captured language and sound during a typical eight-hour day",
+     "how": "\"recorded speech and sound using special ___ that the babies were equipped with\" ↔ \"fitting 26 children with audio-recording vests that captured language and sound\" (recorded ↔ captured, speech ↔ language, were equipped with ↔ fitting ... with). Đáp án là \"audio-recording vests\" – tính cả từ nối gạch nối vẫn nằm trong giới hạn hai từ. Đừng lặp lại \"recording devices\" của Q18: đó là nghiên cứu khác (VanDam), còn đây là nghiên cứu Washington/Connecticut."
+    },
+    {
+     "q": 23,
+     "ans": "vocabulary",
+     "quote": "And when researchers saw the same babies at age two, they found that frequent baby talk had dramatically boosted vocabulary, regardless of socioeconomic status.",
+     "how": "\"When they studied the babies again at age two\" ↔ \"when researchers saw the same babies at age two\" (gần như nguyên văn, dễ locate); \"those who had heard a lot of baby talk in infancy had a much larger ___\" ↔ \"frequent baby talk had dramatically boosted vocabulary\" (much larger ↔ dramatically boosted). Chỗ trống sau \"a much larger\" cần danh từ số ít không đếm được → \"vocabulary\". Bẫy: \"words\" xuất hiện ở cuối đoạn (\"the more words they produce later in life\") nhưng không đi được với \"a much larger\", và câu đó nói về việc bi bô một-một chứ không phải kết quả đo lúc hai tuổi."
+    }
+   ],
+   "note": "Đoạn D có nhiều con số (26 trẻ, 30 giây, tám tiếng, hai tuổi). Chỉ mốc \"age two\" được câu tóm tắt dùng lại, các số còn lại là nhiễu."
+  }
+ ],
+ "tips": [
+  "Bài này có hai tên trường gần giống nhau (Washington State University ở đoạn C và University of Washington ở đoạn D). Khi câu hỏi dùng tên riêng, hãy đối chiếu từng chữ, đừng chỉ liếc thấy \"Washington\" là dừng.",
+  "NO MORE THAN TWO WORDS cho phép điền cụm, nhưng hãy lấy cụm ngắn nhất mà vẫn trả lời đúng chỗ trống: \"recording devices\", \"bridge hypothesis\", \"audio-recording vests\". Không thêm mạo từ \"the\"/\"a\" đã có sẵn trong câu tóm tắt.",
+  "Khi đề cho hai đáp án tương đương (dads / fathers), chọn từ nào cũng được, nhưng phải đúng số nhiều như bài dùng.",
+  "Hai chỗ trống Q18 và Q22 đều nói về thiết bị ghi âm – đây chính là kiểu bẫy lặp chủ đề. Phân biệt bằng nghiên cứu nào: VanDam dùng recording devices + speech-recognition software, nhóm Washington/Connecticut dùng audio-recording vests.",
+  "Dấu hiệu ngôn ngữ giúp đoán chỗ trống: \"an idea known as the ...\" luôn dẫn tới tên một giả thuyết/mô hình trong bài, còn \"a much larger ...\" đòi một danh từ chỉ lượng (vocabulary), không phải danh từ đếm được số nhiều (words)."
+ ]
+}

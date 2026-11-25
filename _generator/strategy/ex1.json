@@ -1,0 +1,49 @@
+{
+ "step1": "Tiêu đề \"Why being bored is stimulating - and useful, too\" cho thấy bài sẽ bàn về sự buồn chán (boredom): định nghĩa nó là gì, phân loại, rồi tranh luận xem nó có ích hay có hại. Mạch bài đoán được: khó định nghĩa boredom (A) → phân loại 5 kiểu (B) → quan điểm boredom giúp sáng tạo (C) → quan điểm phản bác, boredom là trạng thái tiêu cực (D) → vì sao hệ thống chú ý thất bại, tính cách và hệ quả (E) → gợi ý cuối (F). Tiêu đề bản tóm tắt là \"Responses to boredom\" và câu đầu nêu đích danh John Eastwood, nên cả nhóm Q24–26 chắc chắn nằm ở phần nói về Eastwood, tức hai đoạn D và E – không cần đọc kỹ A, B, C để làm nhóm này.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["24–26", "Summary completion (ONE WORD ONLY)", "Có – bám tên riêng John Eastwood", "John Eastwood, attention system, frustrated and irritable, aim in life, characteristic"]
+ ],
+ "typesNote": "Chỉ có một nhóm duy nhất và nhóm summary completion luôn theo đúng thứ tự bài, nên chiến thuật là: quét tìm \"Eastwood\" → đọc từ đoạn D trở đi, chốt Q24 ở D, Q25 và Q26 ở E. Chú ý yêu cầu ONE WORD ONLY: mọi đáp án chỉ được một từ, viết hai từ là mất điểm dù nghĩa đúng.",
+ "walk": [
+  {
+   "para": "Đoạn D",
+   "idea": "John Eastwood phản bác quan điểm của Mann: với ông, boredom theo định nghĩa là trạng thái không mong muốn; cốt lõi của nó là \"attention system\" không khởi động được, khiến ta không tập trung nổi vào bất cứ việc gì, thời gian trôi chậm chạp và sinh ra bực bội, cáu kỉnh.",
+   "answers": [
+    {
+     "q": 24,
+     "ans": "focus",
+     "quote": "For Eastwood, the central feature of boredom is a failure to put our 'attention system' into gear. This causes an inability to focus on anything, which makes time seem to go painfully slowly.",
+     "how": "Câu tóm tắt gần như dịch lại nguyên câu trong bài: \"the central feature of boredom is\" được giữ nguyên, còn \"a failure in what he calls the 'attention system'\" ↔ \"a failure to put our 'attention system' into gear\". Chỗ trống đứng sau \"people cannot\" nên cần một động từ nguyên thể: \"an inability to focus on anything\" (danh từ hóa) đổi thành \"people cannot focus\". Chỉ lấy đúng \"focus\", không viết \"focus on\" hay \"focus on anything\" vì đề yêu cầu ONE WORD ONLY. Đừng chép \"attention\" – từ này đã có sẵn trong câu tóm tắt rồi."
+    }
+   ],
+   "note": "Vế cuối của câu tóm tắt \"they become frustrated and irritable\" chính là \"there's that frustration and irritability\" ở cuối đoạn D. Nó không phải câu hỏi, nhưng là dấu hiệu xác nhận bạn đang đọc đúng chỗ."
+  },
+  {
+   "para": "Đoạn E",
+   "idea": "Nhóm Eastwood đang tìm hiểu vì sao hệ thống chú ý thất bại; bước đầu họ cho rằng một phần do tính cách: người bị thúc đẩy bởi khoái cảm thì dễ chán nhất, còn những nét tính cách như tò mò lại giúp chịu chán tốt. Đoạn này cũng nói người dễ chán có tiền đồ kém hơn và gợi ý cách đối phó.",
+   "answers": [
+    {
+     "q": 25,
+     "ans": "pleasure",
+     "quote": "Boredom proneness has been linked with a variety of traits. People who are motivated by pleasure seem to suffer particularly badly.",
+     "how": "\"those for whom ___ is an important aim in life\" ↔ \"People who are motivated by pleasure\": ai bị khoái cảm thúc đẩy thì khoái cảm chính là mục tiêu quan trọng trong đời. \"may have problems in coping with boredom\" ↔ \"seem to suffer particularly badly\" (chịu đựng tệ hại = khó đối phó). Lấy đúng danh từ \"pleasure\", không lấy \"motivated\" vì chỗ trống là chủ ngữ cần danh từ."
+    },
+    {
+     "q": 26,
+     "ans": "curiosity",
+     "quote": "Other personality traits, such as curiosity, are associated with a high boredom threshold.",
+     "how": "\"those who have the characteristic of ___\" ↔ \"Other personality traits, such as curiosity\" (characteristic ↔ personality trait, và ví dụ duy nhất được nêu là curiosity). \"can generally cope with it\" ↔ \"a high boredom threshold\" – ngưỡng chịu chán cao nghĩa là lâu mới thấy chán, tức đối phó được. Bẫy ở đây là \"threshold\": nó đứng ngay cạnh nhưng không phải một nét tính cách, nên không điền vào chỗ \"characteristic of ___\" được."
+    }
+   ],
+   "note": "Hai câu 25 và 26 nằm sát nhau và đối lập nhau (suffer badly ↔ high boredom threshold). Khi bản tóm tắt dùng \"whereas\", hãy tìm đúng cặp câu tương phản trong bài – thường chúng cũng đứng liền nhau."
+  }
+ ],
+ "tips": [
+  "Summary completion luôn theo thứ tự bài và thường chỉ gói gọn trong một hai đoạn. Hãy dùng tên riêng, con số hoặc thuật ngữ trong ngoặc kép (ở đây là John Eastwood và 'attention system') để khoanh vùng trước, rồi chỉ đọc kỹ vùng đó.",
+  "Đếm từ trước khi viết: ONE WORD ONLY nghĩa là một từ duy nhất. Nếu bài viết \"an inability to focus on anything\" thì bạn phải tự cắt lấy từ mang nghĩa cốt lõi là \"focus\".",
+  "Chỗ trống quyết định từ loại. Sau \"people cannot\" phải là động từ; trước \"is an important aim\" và sau \"the characteristic of\" phải là danh từ. Chọn đúng từ loại giúp loại ngay các từ cùng gốc đứng gần đó.",
+  "Không điền lại từ đã xuất hiện trong chính câu tóm tắt (attention, boredom, frustrated). Chỗ trống luôn là phần thông tin mới mà câu tóm tắt còn thiếu.",
+  "Giữ nguyên dạng từ như trong bài: chép \"pleasure\", \"curiosity\" đúng y nguyên, đừng tự đổi sang \"pleasurable\" hay \"curious\" cho hợp ngữ pháp bạn tưởng tượng."
+ ]
+}

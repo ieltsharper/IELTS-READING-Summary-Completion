@@ -1,0 +1,99 @@
+{
+ "step1": "Tiêu đề \"Back to the future of skyscraper design\" cùng nghịch lý \"back to the future\" báo trước luận điểm chính: muốn thiết kế nhà cao tầng cho tương lai ít năng lượng thì phải quay lại học cách thông gió tự nhiên của thế kỷ 19. Mạch bài đoán được: giới thiệu công trình nghiên cứu của Giáo sư Alan Short → kêu gọi bỏ nhà kín chạy điều hòa → số liệu về năng lượng → bằng chứng lịch sử (bệnh viện thế kỷ 19) → vì sao thời đó người ta thông gió giỏi đến vậy → các công trình hiện đại của ông → kết luận. Tiêu đề bản tóm tắt là \"Ventilation in 19th-century hospital wards\", tức chỉ hỏi đúng khúc bằng chứng lịch sử, nên Q19–26 nằm gọn ở ba đoạn D, E, F – đúng những đoạn nhắc John Shaw Billings, Johns Hopkins Hospital và miasmas.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["19–26", "Summary completion (ONE WORD ONLY – chép đúng một từ trong bài)", "Có – tiêu đề tóm tắt chỉ thẳng vào các đoạn về bệnh viện thế kỷ 19 (D–F), và tám câu đi đúng thứ tự bài", "John Shaw Billings, in the air, someone with, air changes, modern operating theatre, more patients in, toxic air, epidemics in the mid-19th century"]
+ ],
+ "typesNote": "Tám chỗ trống của bản tóm tắt chạy đúng theo thứ tự thông tin trong bài: Q19 ở đoạn D, Q20–21 ở cuối đoạn D, Q22–23 ở đoạn E, Q24–26 ở đoạn F. Vì vậy chỉ cần một lượt đọc liên tục từ đoạn D tới hết đoạn F là chốt đủ, không cần quay lại. Nhóm này đặc biệt \"dễ ăn\" vì rất nhiều từ cần điền là thuật ngữ (pathogens, tuberculosis, miasmas, cholera) – chúng không thể bị paraphrase, nên chỉ cần khớp đúng câu là lấy được từ.",
+ "walk": [
+  {
+   "para": "Đoạn A–C (bối cảnh, nằm ngoài bản tóm tắt)",
+   "idea": "Short cho rằng khủng hoảng thiết kế nhà đã xảy ra: chính sách chỉ trông vào thiết bị, nhà cao tầng bị bịt kín và sống nhờ \"life support\" là điều hòa, trong khi công trình ở phương Tây ngốn 40–50% lượng điện.",
+   "answers": [],
+   "note": "Các con số (30 năm nghiên cứu, 40–50% điện) rất dễ hút mắt nhưng không có câu nào hỏi tới. Khi tiêu đề bản tóm tắt đã chỉ rõ \"19th-century hospital wards\", hãy lướt nhanh các đoạn mở đầu và chỉ dừng lại khi gặp từ \"hospital\"."
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Sách của Short làm nổi bật nghệ thuật thông gió tinh vi của thế kỷ 19, đặc biệt là các bệnh viện theo thiết kế của John Shaw Billings; nhóm nghiên cứu đã mô hình hóa kỹ thuật số các thiết kế cuối cùng của Billings, thả mầm bệnh vào luồng khí và mô phỏng một bệnh nhân lao ho trong buồng bệnh.",
+   "answers": [
+    {
+     "q": 19,
+     "ans": "design",
+     "quote": "including the design of ingeniously ventilated hospitals ... those built to the designs of John Shaw Billings",
+     "how": "Câu mở đầu bản tóm tắt \"Hospital wards designed by John Shaw Billings influenced later hospital [19]\" là câu dẫn, khớp với cụm \"a developing and sophisticated art and science of ventilating buildings ... including the design of ingeniously ventilated hospitals. Of particular interest were those built to the designs of John Shaw Billings\". Chỗ trống đứng sau \"later hospital\" nên cần danh từ, và từ mà bài dùng cho khái niệm này là \"design\" (bài có cả dạng số ít \"the design of ... hospitals\" lẫn số nhiều \"the designs of John Shaw Billings\", nên đáp án chấp nhận cả design và designs). Đừng viết \"wards\" – chữ đó đã có sẵn ở đầu câu tóm tắt."
+    },
+    {
+     "q": 20,
+     "ans": "pathogens",
+     "quote": "in the airstreams, modelled for someone with tuberculosis",
+     "how": "\"Researchers found that [20] in the air ... would not have harmed other patients\" ↔ \"We put pathogens in the airstreams ... we found the ventilation systems in the room would have kept other patients safe from harm\": \"in the air\" ↔ \"in the airstreams\", còn \"would not have harmed other patients\" ↔ \"would have kept other patients safe from harm\" (phủ định hóa một ý khẳng định – kiểu paraphrase rất hay gặp). Chủ ngữ cần điền chính là thứ được thả vào luồng khí: \"pathogens\". Bài còn có chú thích cuối trang giải nghĩa \"pathogens: microorganisms that can cause disease\", nhưng đừng điền \"microorganisms\" – đề yêu cầu chép từ trong bài ở đúng vị trí thông tin."
+    },
+    {
+     "q": 21,
+     "ans": "tuberculosis",
+     "quote": "modelled for someone with tuberculosis",
+     "how": "\"modelled on someone with [21]\" gần như trùng nguyên văn \"modelled for someone with tuberculosis (TB) coughing in the wards\". Bẫy lớn nhất ở đây là viết \"TB\": trong bài \"(TB)\" chỉ là phần viết tắt đặt trong ngoặc, còn từ thực sự đứng ở vị trí đó là \"tuberculosis\" – hãy chép đủ, đúng chính tả."
+    }
+   ],
+   "note": "Đoạn D vừa cho câu dẫn (Q19) vừa cho hai thuật ngữ (Q20, Q21). Chú ý một chi tiết nền: \"the first Johns Hopkins Hospital in the US city of Baltimore (1873-1889)\" là ví dụ minh họa, không có chỗ trống nào hỏi tên bệnh viện hay năm."
+  },
+  {
+   "para": "Đoạn E",
+   "idea": "Phát hiện gây bất ngờ: buồng bệnh thế kỷ 19 đạt tới 24 lần thay đổi không khí mỗi giờ, ngang với phòng mổ hiện đại điều khiển bằng máy tính; buồng bệnh chung vẫn phù hợp với một số nhóm bệnh nhân và tốn rất ít năng lượng – nhưng tư duy và kỹ năng thiết kế ấy đã thất truyền.",
+   "answers": [
+    {
+     "q": 22,
+     "ans": "wards",
+     "quote": "19th-century hospital wards could generate up to 24 air changes an hour ... similar to the performance of a modern-day, computer-controlled operating theatre",
+     "how": "\"Air in hospital [22] could change as often as in a modern operating theatre\" ↔ \"19th-century hospital wards could generate up to 24 air changes an hour – that's similar to the performance of a modern-day, computer-controlled operating theatre\": danh từ \"air changes\" trong bài được chuyển thành động từ \"could change\" trong tóm tắt, còn \"as often as\" ↔ \"similar to\". Chỗ trống sau \"hospital\" cần danh từ chỉ nơi chốn → \"wards\" (số nhiều như trong bài). Đừng điền \"rooms\" – từ đó xuất hiện ở đoạn D (\"the ventilation systems in the room\") nhưng không phải từ của câu này."
+    },
+    {
+     "q": 23,
+     "ans": "communal",
+     "quote": "Communal wards appropriate for certain patients ... at a fraction of the energy cost",
+     "how": "\"Energy use could be reduced by placing more patients in [23] areas\" ↔ \"Communal wards appropriate for certain patients ... would work just as well in today's hospitals, at a fraction of the energy cost\": \"Energy use could be reduced\" ↔ \"at a fraction of the energy cost\", còn \"placing more patients in ... areas\" ↔ ý của \"communal wards\" (buồng bệnh chung, nhiều người) đối lập với \"Single rooms\" ở câu trước. Chỗ trống đứng trước danh từ \"areas\" nên cần một TÍNH TỪ → \"communal\". Lưu ý không điền \"wards\" (sai từ loại, và \"areas\" đã thay cho \"wards\")."
+    }
+   ],
+   "note": "Hai câu này minh họa rõ cách summary completion đổi từ loại: trong bài là danh từ ghép \"communal wards\" và \"air changes\", sang tóm tắt thành \"[tính từ] areas\" và \"air could change\". Luôn nhìn vị trí ngữ pháp của chỗ trống trước khi chép từ."
+  },
+  {
+   "para": "Đoạn F",
+   "idea": "Lý do của sự tài tình đó: công chúng hoảng loạn đòi những tòa nhà chống được miasmas – thứ không khí độc bị cho là nguyên nhân chính gây bệnh và dịch, từ thời Trung cổ đến các đợt dịch tả ở London và Paris thập niên 1850.",
+   "answers": [
+    {
+     "q": 24,
+     "ans": "public",
+     "quote": "driven by a panicked public clamouring for buildings that could protect against what was thought to be the lethal threat of miasmas",
+     "how": "\"Improved ventilation was demanded by the [24]\" ↔ \"Much of the ingenuity present in 19th-century hospital and building design was driven by a panicked public clamouring for buildings...\": \"was demanded by\" ↔ \"was driven by a panicked ... clamouring for\". Chỗ trống sau \"the\" cần danh từ chỉ nhóm người → \"public\" (bỏ tính từ \"panicked\" vì đề chỉ cho một từ)."
+    },
+    {
+     "q": 25,
+     "ans": "miasmas",
+     "quote": "the lethal threat of miasmas ... toxic air that spread disease",
+     "how": "\"who feared toxic air known as [25]\" ↔ \"what was thought to be the lethal threat of miasmas – toxic air that spread disease\": cụm \"toxic air\" trong tóm tắt được chép thẳng từ phần giải nghĩa đặt sau dấu gạch ngang, và dấu gạch ngang đó chính là tín hiệu định nghĩa (miasmas = toxic air). Chép đúng dạng số nhiều \"miasmas\" như trong bài, đừng viết \"miasma\"."
+    },
+    {
+     "q": 26,
+     "ans": "cholera",
+     "quote": "were used to explain the spread of infection from the Middle Ages right through to the cholera outbreaks in London and Paris during the 1850s",
+     "how": "\"and by the [26] epidemics in the mid-19th century\" ↔ \"the cholera outbreaks in London and Paris during the 1850s\": \"epidemics\" ↔ \"outbreaks\", còn \"the mid-19th century\" ↔ \"the 1850s\" (phải tự quy đổi mốc thời gian). Chỗ trống bổ nghĩa cho \"epidemics\" nên lấy tên bệnh: \"cholera\". Bẫy ở đây là \"hospital fever\" nhắc ngay sau đó – đó là tên gọi của tình trạng bệnh trong bệnh viện, không phải tên đợt dịch ở London và Paris."
+    }
+   ],
+   "note": "Ba chỗ trống cuối nằm trong ba câu liên tiếp, nhưng Q26 lùi về giữa đoạn (câu nói về Middle Ages → 1850s) chứ không ở cuối đoạn. Hãy đọc hết đoạn F rồi mới chốt, đừng dừng ngay khi tìm thấy \"miasmas\"."
+  },
+  {
+   "para": "Đoạn G–I (phần kết, nằm ngoài bản tóm tắt)",
+   "idea": "Short nói về chi phí điều hòa hôm nay, các công trình ông đã xây (Queen's Building ở De Montfort University với 2.000 người, thông gió hoàn toàn tự nhiên), nguy cơ nhà kính kính trở thành gánh nặng, và các tòa nhà lai ở Bắc Kinh, Chicago.",
+   "answers": [],
+   "note": "Sau khi chốt Q26 thì dừng đọc kỹ. Phần này nhiều số liệu hấp dẫn (2,000 staff, 150 people, 20 or 30 years) nhưng không phục vụ bản tóm tắt nào."
+  }
+ ],
+ "tips": [
+  "Tiêu đề của bản tóm tắt là la bàn: \"Ventilation in 19th-century hospital wards\" cho biết toàn bộ tám câu chỉ nằm trong phần bàn về bệnh viện thế kỷ 19, nên có thể lướt rất nhanh các đoạn đầu và cuối bài.",
+  "Thuật ngữ và tên bệnh (pathogens, tuberculosis, miasmas, cholera) không bao giờ bị paraphrase, nên chúng là những chỗ trống dễ nhất – nhưng phải chép đủ chữ: viết \"TB\" thay cho \"tuberculosis\" hay \"miasma\" thay cho \"miasmas\" đều bị tính sai.",
+  "Xác định từ loại của chỗ trống trước khi chép: \"[23] areas\" cần tính từ (communal), \"hospital [22]\" và \"later hospital [19]\" cần danh từ. Chép đúng từ nhưng sai từ loại vẫn mất điểm.",
+  "Chú ý những phép đổi cách diễn đạt quen thuộc của dạng này: khẳng định ↔ phủ định (kept other patients safe from harm → would not have harmed), danh từ ↔ động từ (air changes → air could change), mốc thời gian cụ thể ↔ khái quát (the 1850s → the mid-19th century).",
+  "Dấu gạch ngang trong bài thường mở ra một lời giải nghĩa (\"miasmas – toxic air that spread disease\"). Khi câu tóm tắt dùng \"known as\", \"or\", \"that is\", hãy tìm đúng dấu gạch ngang hoặc dấu phẩy giải thích đó.",
+  "Các chỗ trống của một bản tóm tắt luôn chạy theo thứ tự bài; nếu đáp án bạn chọn cho câu sau lại nằm trước đáp án của câu trước (ví dụ điền \"rooms\" ở Q22 bằng chi tiết ở đoạn D), đó là dấu hiệu bạn đã khớp nhầm câu."
+ ]
+}

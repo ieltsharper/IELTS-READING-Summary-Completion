@@ -1,0 +1,72 @@
+{
+ "step1": "Tiêu đề \"Motivational factors and the hospitality industry\" cho thấy bài học thuật về quản trị nhân sự khách sạn: làm sao giữ chân và tạo động lực cho nhân viên. Bài dẫn nhiều nghiên cứu theo tên tác giả + năm (Pfeffer 1994, Lucas 2002, Ng và Sorensen 2008, Herzberg 1966, Tews et al. 2013, Deery 2008), nên cấu trúc đoán được: đặt vấn đề → điều kiện làm việc kém trong ngành → vì sao nhân viên nghỉ việc → lý thuyết động lực nội sinh/ngoại sinh → yếu tố \"fun\" → khuyến nghị. Tiêu đề bản tóm tắt là \"Fun at work\", mà \"fun\" chỉ là một mắt xích gần cuối bài, nên Q36–40 gần như chắc chắn dồn vào đúng một đoạn: đoạn nói về nghiên cứu của Tews, Michel và Stafford. Câu đầu của tóm tắt (\"Research was carried out on staff at a chain of ... in the United States\") còn cho sẵn địa chỉ chính xác: đoạn nào có \"a study\" + \"in the United States\".",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["36–40", "Summary completion (ONE WORD ONLY – chép đúng một từ trong bài)", "Có – tóm tắt chỉ gói gọn một đoạn, scan theo \"fun\" + \"in the United States\"", "a chain of, in the United States, fun activities, improved, management involvement, lower staff, must fit with company, employee"]
+ ],
+ "typesNote": "Bài này không đánh chữ cái cho đoạn, nên hãy định vị bằng tên nhà nghiên cứu: cả năm đáp án đều nằm trong đoạn về Tews, Michel and Stafford (2013). Khi cả nhóm câu nằm trong một đoạn như vậy, đừng scan từng từ khóa riêng lẻ – hãy đọc trọn đoạn đó thật chậm theo câu, vì năm chỗ trống bám sát đúng trình tự ba câu liên tiếp của đoạn.",
+ "walk": [
+  {
+   "para": "Đoạn 1–2 (đặt vấn đề và nguồn gốc ý tưởng \"fun\")",
+   "idea": "Thành công của khách sạn phụ thuộc vào việc giữ được nhân viên giỏi; một số khách sạn cố tạo điều kiện làm việc tốt, ý tưởng này vốn xuất phát từ những nơi làm việc ngoài ngành dịch vụ vốn đề cao \"fun and enjoyment\" như một phần của cân bằng công việc – cuộc sống.",
+   "answers": [],
+   "note": "Bẫy định vị đầu tiên: từ \"fun\" xuất hiện ngay ở đoạn 2 (\"emphasized fun and enjoyment as part of work-life balance\"), nhưng đoạn này chỉ nói ý tưởng ĐẾN TỪ ĐÂU, không hề có nghiên cứu nào ở Mỹ. Scan trúng từ khóa chưa chắc đã trúng đáp án – phải kiểm tra xem câu đó có khớp cả cấu trúc câu tóm tắt hay không."
+  },
+  {
+   "para": "Đoạn 3–10 (các nghiên cứu về HRM và lý thuyết Herzberg)",
+   "idea": "Pfeffer, Lucas, Maroudas, Ng và Sorensen bàn về đầu tư nhân sự, điều kiện làm việc kém và tỉ lệ nghỉ việc cao trong ngành; Herzberg (1966) phân biệt nhu cầu ngoại sinh (điều kiện làm việc, sự ổn định của công việc – chỉ làm giảm bất mãn) và nội sinh (thành tựu, sự ghi nhận – mới tạo ra hài lòng).",
+   "answers": [],
+   "note": "Phần này dài nhưng hoàn toàn nằm ngoài bản tóm tắt. Nó chứa đầy bẫy từ khóa cho Q38: \"high employee turnover has been a recurring problem\" và \"employee motivation and retention\" đều nói về turnover, nhưng không gắn với \"management involvement\". Hãy nhớ bản tóm tắt chỉ hỏi về MỘT nghiên cứu cụ thể."
+  },
+  {
+   "para": "Đoạn 11 (nghiên cứu của Tews, Michel and Stafford 2013 về yếu tố \"fun\")",
+   "idea": "Nghiên cứu trên nhân viên một chuỗi nhà hàng theo chủ đề ở Mỹ cho thấy: hoạt động vui chơi giúp cải thiện hiệu suất, và việc quản lý ủng hộ các hoạt động đó giúp giảm tỉ lệ nghỉ việc – nhưng \"fun\" phải được thiết kế khớp với mục tiêu của tổ chức và đặc điểm của nhân viên.",
+   "answers": [
+    {
+     "q": 36,
+     "ans": "restaurants",
+     "quote": "Tews, Michel and Stafford (2013) conducted a study focusing on staff from a chain of themed restaurants in the United States.",
+     "how": "\"Research was carried out on staff at a chain of [36] in the United States\" lặp lại gần như nguyên văn: \"Research was carried out\" ↔ \"conducted a study\", \"on staff at\" ↔ \"focusing on staff from\". Trong bài cụm đầy đủ là \"a chain of themed restaurants\", nhưng đề yêu cầu ONE WORD ONLY nên phải bỏ từ bổ nghĩa \"themed\" và chỉ lấy danh từ chính \"restaurants\" – giữ nguyên số nhiều."
+    },
+    {
+     "q": 37,
+     "ans": "performance",
+     "quote": "It was found that fun activities had a favorable impact on performance and manager support for fun had a favorable impact in reducing turnover.",
+     "how": "\"It was found that fun activities improved [37]\" ↔ \"It was found that fun activities had a favorable impact on performance\": động từ \"improved\" chính là cách rút gọn của \"had a favorable impact on\". Chỗ trống đứng sau động từ nên cần danh từ → \"performance\". Lưu ý chép nguyên dạng danh từ trong bài, không đổi thành \"performances\"."
+    },
+    {
+     "q": 38,
+     "ans": "turnover",
+     "quote": "manager support for fun had a favorable impact in reducing turnover",
+     "how": "\"Management involvement led to lower staff [38]\" ↔ vế sau của cùng câu: \"Management involvement\" ↔ \"manager support for fun\", còn \"led to lower\" ↔ \"had a favorable impact in reducing\". Vì \"lower\" đã thay cho \"reducing\" nên chỗ trống chỉ cần đúng danh từ bị giảm: \"turnover\" (tỉ lệ nhân viên nghỉ việc). Đừng lấy \"staff turnover\" – chữ \"staff\" đã có sẵn trong câu tóm tắt."
+    },
+    {
+     "q": 39,
+     "ans": "goals",
+     "quote": "the framing of that fun must be carefully aligned with both organizational goals and employee characteristics",
+     "how": "\"However, activities must fit with company [39] and employee [40]\" là bản rút gọn của câu này: \"must fit with\" ↔ \"must be carefully aligned with both\", và \"company\" ↔ \"organizational\". Cấu trúc \"A and B\" được giữ nguyên, nên vế thứ nhất cho Q39 là \"goals\". Vì câu tóm tắt đã dùng \"company\" thay cho \"organizational\", tuyệt đối không viết \"organizational goals\"."
+    },
+    {
+     "q": 40,
+     "ans": "characteristics",
+     "quote": "both organizational goals and employee characteristics",
+     "how": "Vế thứ hai của cùng cụm: \"employee [40]\" ↔ \"employee characteristics\", chép nguyên si vì câu tóm tắt đã giữ lại từ \"employee\". Chú ý chính tả và dạng số nhiều \"characteristics\" – viết thiếu đuôi -s hay sai thành \"characteristic\" là mất điểm."
+    }
+   ],
+   "note": "Cả năm đáp án nằm trong ba câu liên tiếp, nên khi đã tìm thấy câu \"conducted a study ... in the United States\" thì hãy đọc chậm tiếp vài dòng là chốt xong cả nhóm. Câu trích dẫn cuối đoạn (\"Managers must learn how to achieve the delicate balance...\") không chứa đáp án nào – nó chỉ nhắc lại ý \"cân bằng\"."
+  },
+  {
+   "para": "Đoạn 12 (khuyến nghị của Deery 2008)",
+   "idea": "Deery gợi ý các biện pháp giữ chân nhân viên và cân bằng công việc – gia đình: cho nghỉ giải lao đủ trong ca, tổ chức sự kiện có gia đình tham gia, và tạo cơ hội chăm sóc sức khỏe.",
+   "answers": [],
+   "note": "Đoạn này cũng nói về hoạt động cho nhân viên (\"staff functions that involve families\") nên dễ bị nhầm là phần tiếp theo của bản tóm tắt. Nhưng đây là khuyến nghị của Deery, không phải kết quả nghiên cứu của Tews – bản tóm tắt đã kết thúc ở Q40."
+  }
+ ],
+ "tips": [
+  "Với bài không đánh chữ cái cho đoạn, hãy định vị bằng tên nhà nghiên cứu hoặc năm (ở đây: Tews, Michel and Stafford 2013). Đó là \"mỏ neo\" không thể bị paraphrase.",
+  "Từ khóa trùng chưa phải là đáp án: chữ \"fun\" xuất hiện ở đoạn 2, đoạn 11 và cả lời trích cuối đoạn 11; chữ \"turnover\" xuất hiện ở đoạn 4 lẫn đoạn 11. Luôn kiểm tra xem câu đó có khớp TOÀN BỘ cấu trúc của câu tóm tắt không (ai làm, kết quả gì).",
+  "Nhìn kỹ những từ ĐÃ CÓ quanh chỗ trống (\"a chain of\", \"staff\", \"company\", \"employee\") – chúng cho biết phần nào của cụm danh từ trong bài đã được dùng rồi, nên bạn chỉ điền phần còn lại. Đây là cách an toàn nhất để không vi phạm ONE WORD ONLY.",
+  "Các động từ trong tóm tắt thường là bản rút gọn của cụm dài trong bài: improved = had a favorable impact on; led to lower = had a favorable impact in reducing; must fit with = must be carefully aligned with. Nhận ra quy luật này giúp bạn biết chỗ trống cần danh từ chứ không phải động từ.",
+  "Đừng đổi dạng từ cho \"mượt\" hơn: dạng summary completion lấy từ trong bài yêu cầu chép ĐÚNG từ xuất hiện trong bài (performance, turnover, goals, characteristics), kể cả khi bạn nghĩ dạng khác nghe tự nhiên hơn."
+ ]
+}

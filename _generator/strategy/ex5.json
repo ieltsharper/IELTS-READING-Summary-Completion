@@ -1,0 +1,61 @@
+{
+ "step1": "Tiêu đề \"Saving the Soil\" cho thấy bài nói về đất đang bị suy thoái và các cách cứu đất. Mạch bài đoán được ngay: đất quan trọng thế nào → vì sao đang hỏng → nguyên nhân (nông nghiệp, phân bón hóa học) → các giải pháp đang thử → việc cần làm ở quy mô toàn cầu. Tiêu đề bản tóm tắt là \"Why soil degradation could be a disaster for humans\", tức bản tóm tắt chỉ bao phần ĐẦU của bài – phần nói đất quan trọng ra sao và vì sao mất đất là thảm họa – chứ không bao phần giải pháp. Vì vậy Q14–17 gần như chắc chắn nằm gọn trong hai đoạn B và C; các đoạn D–G chỉ cần đọc lướt.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["14–16", "Summary completion (ONE WORD ONLY)", "Có – nằm ở đoạn mô tả lợi ích của đất", "bacteria and other microorganisms, plant remains, antibiotics, storing, climate, damage to property"],
+  ["17", "Summary completion (ONE WORD ONLY)", "Có – nằm ở đoạn nói nguyên nhân suy thoái", "lose its special properties, main factor, soil degradation"]
+ ],
+ "typesNote": "Bốn câu đi đúng thứ tự bài và đều rơi vào hai đoạn liền nhau (B rồi C), nên chỉ cần một lượt đọc. Lưu ý thứ tự trong bản tóm tắt KHÔNG trùng thứ tự liệt kê trong bài: đoạn B nói lần lượt bacteria → antibiotics → carbon → water, còn bản tóm tắt gộp \"plant remains and [14]\" lên trước. Đừng điền theo kiểu đếm thứ tự, phải bám nghĩa từng câu.",
+ "walk": [
+  {
+   "para": "Đoạn A",
+   "idea": "Theo báo cáo của Liên Hợp Quốc, hơn một phần ba đất trên thế giới đang bị đe dọa; nếu không chặn đà suy giảm thì trong 60 năm nữa có thể mất hết đất canh tác. Đất nuôi 95% lương thực của con người nên đây là vấn đề lớn.",
+   "answers": [],
+   "note": "Đoạn mở đầu nêu quy mô vấn đề, không có câu hỏi. Chỉ cần ghi nhớ ý \"đất quan trọng với con người\" vì đó là hướng của cả bản tóm tắt."
+  },
+  {
+   "para": "Đoạn B",
+   "idea": "Giải thích đất quý ở chỗ nào: một gam đất khỏe chứa tới 100 triệu vi khuẩn cùng virus, nấm, xác thực vật đang phân hủy và các khoáng chất. Nhờ vậy đất không chỉ trồng ra thức ăn mà còn là nguồn của gần như toàn bộ kháng sinh hiện có, giữ carbon (gấp ba lần lượng carbon trong khí quyển) nên chống biến đổi khí hậu, và giữ nước nên ngăn thiệt hại do lũ lụt.",
+   "answers": [
+    { "q": 14, "ans": "minerals", "quote": "A single gram of healthy soil might contain 100 million bacteria, as well as other microorganisms such as viruses and fungi, living amid decomposing plants and various minerals.", "how": "Câu tóm tắt gần như là bản viết lại y hệt câu này: \"Healthy soil contains a large variety of bacteria and other microorganisms\" ↔ \"contain 100 million bacteria, as well as other microorganisms\", và \"as well as plant remains and [14]\" ↔ \"living amid decomposing plants and various minerals\" (plant remains = decomposing plants). Danh sách trong bài kết thúc bằng \"various minerals\", nên chỗ trống là \"minerals\"; không điền \"fungi\" hay \"viruses\" vì hai thứ đó đã được gộp vào cụm \"other microorganisms\" ở ngay trước." },
+    { "q": 15, "ans": "carbon", "quote": "Soil is also an ally against climate change: as microorganisms within soil digest dead animals and plants, they lock in their carbon content, holding three times the amount of carbon as does the entire atmosphere.", "how": "\"its function in storing [15] has a significant effect on the climate\" ↔ \"an ally against climate change ... they lock in their carbon content, holding three times the amount of carbon\": storing ↔ lock in / holding, effect on the climate ↔ against climate change. Từ duy nhất chỉ thứ được giữ lại là \"carbon\". Không điền \"carbon content\" hay \"carbon dioxide\" – đề cho MỘT từ, và bài viết là \"carbon\"." },
+    { "q": 16, "ans": "water", "quote": "Soils also store water, preventing flood damage: in the UK, damage to buildings, roads and bridges from floods caused by soil degradation costs", "how": "\"it prevents damage to property and infrastructure because it holds [16]\" ↔ \"Soils also store water, preventing flood damage: ... damage to buildings, roads and bridges\". \"Property and infrastructure\" chính là cách nói khái quát của \"buildings, roads and bridges\", còn \"holds\" là từ đồng nghĩa của \"store\". Đáp án: \"water\". Lưu ý không điền \"floods\": lũ là thứ gây hại, không phải thứ đất giữ lại." }
+   ],
+   "note": "Ba câu 14–16 đều nằm trong một đoạn và một đoạn đó liệt kê rất nhiều danh từ (bacteria, viruses, fungi, minerals, antibiotics, carbon, water). Cách an toàn là đọc trọn câu tóm tắt trước, xác định vai trò ngữ pháp của chỗ trống, rồi mới dò đoạn B."
+  },
+  {
+   "para": "Đoạn C",
+   "idea": "Nếu đất mất khả năng thực hiện các chức năng trên thì loài người gặp rắc rối lớn: nguy cơ không phải đất biến mất mà là các vi sinh vật tạo nên đặc tính của đất bị mất, và phải mất hàng nghìn năm đất mới hồi phục. Nông nghiệp cho đến nay là vấn đề lớn nhất – con người không trả lại phần cây trồng không dùng cho đất nên đất ngày càng bạc màu.",
+   "answers": [
+    { "q": 17, "ans": "agriculture", "quote": "The danger is not that the soil will disappear completely, but that the microorganisms that give it its special properties will be lost. And once this has happened, it may take the soil thousands of years to recover. Agriculture is by far the biggest problem.", "how": "Câu tóm tắt \"If these microorganisms are lost, soil may lose its special properties\" lấy đúng ý câu \"the microorganisms that give it its special properties will be lost\", nên câu kế tiếp trong bản tóm tắt phải khớp câu kế tiếp trong bài: \"The main factor contributing to soil degradation is the [17] carried out by humans\" ↔ \"Agriculture is by far the biggest problem\" (main factor ↔ by far the biggest problem). Cụm \"carried out by humans\" được xác nhận bởi câu sau: \"Humans tend not to return unused parts of harvested crops directly to the soil\". Đáp án: \"agriculture\". Bẫy là \"fertilisers\" – phân bón hóa học cũng hại đất nhưng nằm ở đoạn D và là một nguyên nhân cụ thể hơn, trong khi \"main factor\" khớp chính xác với \"by far the biggest problem\"." }
+   ]
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Các biện pháp cũ (luân canh, bỏ hoang ruộng một vụ) trở nên bất tiện khi dân số tăng; đầu thế kỷ 20 quy trình Haber-Bosch cho ra phân đạm tổng hợp, nhưng nay thấy rõ phân hóa học thải khí nitrous oxide, trôi nitơ ra sông và làm đất chua, mặn.",
+   "answers": [],
+   "note": "Đoạn D nói về nguyên nhân thứ hai (phân bón). Bản tóm tắt dừng lại ở câu Q17 nên đọc tới đây là đã xong bài tập – không cần đọc kỹ D–G."
+  },
+  {
+   "para": "Đoạn E",
+   "idea": "Pius Floris (Hà Lan) phát triển hỗn hợp vi khuẩn, nấm và mùn có lợi; các nhà nghiên cứu ở Đại học Valladolid dùng hỗn hợp này trên đất bị phá hủy vì lạm dụng phân bón và thu được cây khỏe, rễ xuyên được đất cứng như đá.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn F",
+   "idea": "Những biện pháp lẻ như vậy chưa đủ ở quy mô toàn cầu: thế giới chưa có hệ thống phân loại đất thống nhất, nên Liên Hợp Quốc lập dự án Global Soil Map với 9 nước tham gia, nhằm lập bản đồ đất toàn cầu tới độ sâu 100 m trong 4 năm tới, dữ liệu mở cho mọi người.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn G",
+   "idea": "Cần cách trình bày vấn đề để chính phủ và công chúng hiểu; Pamela Chasek đề xuất mục tiêu 'zero net land degradation' dễ hiểu như khái niệm trung hòa carbon. Một số nhà nghiên cứu đòi lập ngay các khu bảo vệ cho đất đang nguy cấp, dù còn tranh cãi nên bảo tồn vùng nào.",
+   "answers": []
+  }
+ ],
+ "tips": [
+  "Tiêu đề bản tóm tắt là chỉ dẫn quan trọng nhất: \"Why soil degradation could be a disaster for humans\" cho biết chỉ cần phần đầu bài (B và C). Đọc kỹ đúng hai đoạn đó rồi dừng, thay vì đọc đều cả bảy đoạn.",
+  "Trong đoạn liệt kê nhiều danh từ, hãy loại bỏ những từ đã xuất hiện sẵn trong câu tóm tắt: câu Q14 đã có sẵn bacteria, microorganisms và plant remains, nên đáp án chỉ còn \"minerals\".",
+  "Phân biệt \"thứ đất giữ lại\" và \"thứ gây hại\": đất store water để ngăn flood damage, nên Q16 là water chứ không phải floods. Luôn hỏi: chỗ trống đóng vai trò gì trong câu – chủ thể, đối tượng, hay hậu quả?",
+  "Khi hai câu liền nhau trong bản tóm tắt khớp với hai câu liền nhau trong bài, hãy dùng câu đã chắc chắn làm mốc để chốt câu sau (ở đây câu về microorganisms chốt luôn vị trí của Q17 là câu \"Agriculture is by far the biggest problem\")."
+ ]
+}

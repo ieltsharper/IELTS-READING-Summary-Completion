@@ -1,0 +1,67 @@
+{
+ "step1": "Tiêu đề \"Whatever happened to the Harappan Civilisation?\" báo trước một bài nghiên cứu khảo cổ về một nền văn minh cổ đã biến mất: chắc chắn sẽ có phần mô tả nền văn minh thời hưng thịnh, phần nêu các giả thuyết về nguyên nhân suy tàn, rồi phần các nghiên cứu mới đi tìm bằng chứng. Tiêu đề của bản tóm tắt là \"Looking at evidence of climate change\", kèm hai tên riêng Yama Dixit và David Hodell ở câu đầu và Petrie and Singh ở đoạn tóm tắt thứ hai – tức là bản tóm tắt KHÔNG tóm cả bài, mà chỉ tóm phần nghiên cứu bằng chứng khí hậu. Vì vậy ngay từ đầu đã đoán được Q32–34 nằm ở đoạn nói về Dixit/Hodell (đoạn E) và Q35–36 nằm ở đoạn nói về nhóm Petrie đang phân tích hiện vật (đoạn G). Các đoạn A–D và F, H chỉ cần đọc lướt lấy ý.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["32–34", "Summary completion (ONE WORD ONLY)", "Có – bám tên riêng Dixit & Hodell", "snails, change in water levels, less ___ than evaporation, drought"],
+  ["35–36", "Summary completion (ONE WORD ONLY)", "Có – bám tên riêng Petrie & Singh", "archaeological records, five millennia ago, agricultural practices, objects including"]
+ ],
+ "typesNote": "Cả 5 câu đều là summary completion cho một đoạn tóm tắt gồm 2 phần, và thứ tự câu hỏi đi đúng theo thứ tự bài (E rồi G). Mẹo: hai tên riêng trong bản tóm tắt chính là \"neo\" để nhảy thẳng tới đúng đoạn, không cần đọc kỹ A–D. Chỉ ĐƯỢC viết MỘT từ, nên nếu định điền hai từ (ví dụ \"snail shells\", \"summer monsoon\") thì chắc chắn sai dạng.",
+ "walk": [
+  {
+   "para": "Đoạn A",
+   "idea": "Giới thiệu nền văn minh Harappan ở Pakistan–Ấn Độ cổ: hưng thịnh cách đây 5.000 năm, xây 'megacities', buôn bán quốc tế, nhưng 1.000 năm sau thì các thành phố bị bỏ hoang; điều bí ẩn là họ hầu như không để lại hình ảnh về chính mình.",
+   "answers": [],
+   "note": "Không có câu hỏi nào ở đây. Đọc lướt để nắm bối cảnh thời gian (5.000 năm trước = \"five millennia ago\" sẽ quay lại ở Q35)."
+  },
+  {
+   "para": "Đoạn B",
+   "idea": "Petrie giải thích: bằng chứng về giai đoạn đi lên thì nhiều, về giai đoạn suy tàn thì rất ít. Mô tả các thành phố thịnh vượng (nhà tắm lớn, xưởng thủ công, giếng, hệ thống thoát nước), rồi từ khoảng 2100 TCN mọi thứ bắt đầu xuống cấp.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn C",
+   "idea": "Liệt kê các giả thuyết về nguyên nhân suy tàn: sông băng đổi dòng, dân số tăng, cạn kiệt tài nguyên, kinh tế thương mại đổ vỡ, chiến tranh, biến đổi khí hậu. Petrie nhấn mạnh chưa có bằng chứng chắc chắn nào – tranh luận lâu nay chỉ là suy đoán.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Nhóm Petrie và Singh phát hiện vị trí nhiều di chỉ đã công bố bị sai lệch (vài trăm mét đến hàng km), nên dữ liệu cũ về cơ bản không dùng được; họ khảo sát lại và tìm thêm 198 di chỉ chưa từng được biết tới.",
+   "answers": []
+  },
+  {
+   "para": "Đoạn E",
+   "idea": "Dixit và Hodell đưa ra bằng chứng xác thực đầu tiên về biến đổi khí hậu ở vùng đồng bằng tây bắc Ấn Độ: họ thu thập vỏ ốc Melanoides tuberculata trong trầm tích một hồ cổ, phân tích địa hóa, và thấy khoảng 4.100 năm trước lượng bốc hơi vượt lượng mưa – dấu hiệu của hạn hán kéo dài khoảng 200 năm.",
+   "answers": [
+    { "q": 32, "ans": "shells", "quote": "The researchers gathered shells of Melanoides tuberculate snails from the sediments of an ancient lake", "how": "Bản tóm tắt viết \"By collecting the [32] of snails\" – gần như dịch thẳng \"gathered shells of ... snails\" (collecting ↔ gathered). Chỗ trống đứng sau \"the\" và trước \"of snails\" nên phải là danh từ số nhiều \"shells\". Không lấy \"sediments\" vì trầm tích là nơi họ tìm thấy vỏ ốc, không phải thứ \"của ốc\"; cũng không viết \"snail shells\" vì đề chỉ cho MỘT từ." },
+    { "q": 33, "ans": "lake", "quote": "As today, the major source of water into the lake is likely to have been the summer monsoon", "how": "\"a change in water levels in a [33] in the region\" ↔ bài nói về mực nước của \"an ancient lake\": lượng nước vào hồ đến từ gió mùa, rồi \"the amount of evaporation from the lake exceeded the rainfall\". Chỗ trống đứng sau mạo từ \"a\" nên cần danh từ số ít: \"lake\". \"River\" là bẫy vì sông chỉ được nhắc ở đoạn C (sông băng đổi dòng), không liên quan tới nghiên cứu của Dixit." },
+    { "q": 34, "ans": "rainfall", "quote": "there was an abrupt change about 4,100 years ago, when the amount of evaporation from the lake exceeded the rainfall - indicative of a drought", "how": "Bài: \"evaporation ... exceeded the rainfall\" (bốc hơi vượt lượng mưa). Bản tóm tắt lật ngược cấu trúc: \"there was less [34] than evaporation\" (lượng ___ ít hơn bốc hơi) – cùng một ý, chỉ đổi từ \"exceeded\" sang \"less ... than\". Vì thế từ cần điền chính là cái bị vượt qua: \"rainfall\". Bẫy ở đây là \"monsoon\": gió mùa là nguồn mang nước đến, nhưng từ được so sánh trực tiếp với evaporation là rainfall." }
+   ],
+   "note": "Khi bản tóm tắt dùng kiểu so sánh ngược (\"less X than Y\" thay cho \"Y exceeded X\"), hãy xác định xem chỗ trống nằm ở vế nào rồi mới điền – đổi vị trí là sai ngay (điền \"evaporation\" vào Q34 là lỗi phổ biến nhất)."
+  },
+  {
+   "para": "Đoạn F",
+   "idea": "Nhiều nền văn minh Đồ Đồng khác cũng suy tàn cùng thời điểm, có thể do một sự kiện khí hậu quy mô toàn cầu; Singh cho rằng cần thu thập thêm dữ liệu khí hậu ở gần Mohenjodaro, Harappa và vùng Punjab của Ấn Độ.",
+   "answers": [],
+   "note": "Đoạn này không có câu hỏi, nhưng dễ bị dừng lại lâu vì có tên Singh. Hãy nhớ bản tóm tắt nói nhóm Petrie–Singh \"đang dùng hồ sơ khảo cổ để phân tích\" – việc đó ở đoạn G, không phải lời kêu gọi thu thập thêm dữ liệu ở đoạn F."
+  },
+  {
+   "para": "Đoạn G",
+   "idea": "Nhóm Petrie và Singh đang nghiên cứu hồ sơ khảo cổ để hiểu đời sống người dân 5.000 năm trước: phân tích các loại hạt ngũ cốc trồng thời đó (xem có bị thiếu nước không, có đổi cơ cấu cây trồng không) và xem đồ gốm cùng các yếu tố văn hóa vật chất khác mang tính đặc trưng vùng hay giống nhau trên diện rộng.",
+   "answers": [
+    { "q": 35, "ans": "grains", "quote": "They are analysing grains cultivated at the time, and trying to work out whether they were grown under extreme conditions of water stress", "how": "\"using archaeological records to look at [35] from five millennia ago\" ↔ \"examining archaeological records ... how people led their lives in the region five millennia ago. They are analysing grains cultivated at the time\". Vế sau của câu tóm tắt (\"whether people had adapted their agricultural practices to changing climatic conditions\") chính là diễn đạt lại \"whether they were adjusting the combinations of crops they were growing for different weather systems\", nên đối tượng được phân tích là \"grains\". Không điền \"crops\" – từ đó trong bài gắn với việc điều chỉnh cơ cấu cây trồng chứ không phải thứ họ đem ra phân tích." },
+    { "q": 36, "ans": "pottery", "quote": "They are also looking at whether the types of pottery used, and other aspects of their material culture, were distinctive to specific regions or were more similar across larger areas.", "how": "\"They are also examining objects including [36]\" ↔ \"They are also looking at whether the types of pottery used, and other aspects of their material culture\": chữ \"also\" trùng nhau, và \"objects including\" tương ứng với \"the types of pottery ... and other aspects of material culture\" (gốm là một trong các hiện vật). Vế \"so as to find out about links between inhabitants of different parts of the region\" ↔ \"insight into the types of interactive networks that the population was involved in\" và \"whether these changed\" ↔ \"whether those changed\" – xác nhận đúng câu. Không điền \"culture\" vì đó không phải đồ vật." }
+   ]
+  },
+  {
+   "para": "Đoạn H",
+   "idea": "Petrie tin rằng nhà khảo cổ có vị thế đặc biệt để nghiên cứu cách các xã hội xưa phản ứng với biến đổi môi trường, từ đó rút kinh nghiệm cho việc quản lý nguồn nước, cân bằng phát triển đô thị – nông thôn và bảo tồn di sản.",
+   "answers": []
+  }
+ ],
+ "tips": [
+  "Bản tóm tắt chỉ bao một phần bài (ở đây là đoạn E và G). Hãy đọc tiêu đề bản tóm tắt và các tên riêng trong đó trước: chúng cho biết cần dừng lại ở đâu và được phép đọc lướt chỗ nào.",
+  "\"ONE WORD ONLY\" nghĩa là đúng một từ: \"snail shells\", \"summer monsoon\", \"ancient lake\" đều bị tính sai dù đúng ý. Khi trong bài cụm từ có 2–3 chữ, hãy chọn chữ mang nghĩa chính và khớp với mạo từ/giới từ quanh chỗ trống.",
+  "Chú ý mạo từ ngay trước chỗ trống: \"a [33]\" buộc danh từ số ít (lake), còn \"the [32] of snails\" cho danh từ số nhiều (shells). Đây là cách kiểm tra lại nhanh nhất trước khi nộp.",
+  "Cảnh giác với từ khóa lặp ở đoạn khác: \"river\" (đoạn C), \"climate data\" (đoạn F) nghe rất giống nội dung bản tóm tắt nhưng thuộc về giả thuyết hoặc lời kêu gọi khác, không phải nghiên cứu của Dixit–Hodell."
+ ]
+}

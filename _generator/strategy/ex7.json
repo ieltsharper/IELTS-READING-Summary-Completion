@@ -1,0 +1,60 @@
+{
+ "step1": "Tiêu đề \"The growth of bike-sharing schemes around the world\" báo trước một bài kể theo trình tự thời gian: ý tưởng xe đạp dùng chung ra đời ở đâu → thất bại ban đầu → các lần thử lại → thành công lan ra thế giới → tình hình hôm nay. Tiêu đề của bản tóm tắt là \"The first urban bike-sharing scheme\", tức chỉ hỏi về giai đoạn ĐẦU TIÊN, nên toàn bộ Q23–26 chắc chắn nằm ở phần mở đầu bài (đoạn A và tối đa là đoạn B) chứ không rải khắp bài. Đọc nhanh bốn câu tóm tắt cũng thấy chúng kể lại đúng trình tự của đoạn A: Provo là ai → họ lo ngại điều gì → họ phát cái gì → ai đã lấy xe đi. Vì vậy chiến lược là đọc kỹ đoạn A–B, chốt cả bốn câu, rồi dừng.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["23–26", "Summary completion (ONE WORD ONLY – chép đúng một từ trong bài)", "Có – tiêu đề tóm tắt chỉ thẳng vào phần đầu bài, và bốn câu đi đúng thứ tự bài", "Provo, a group of Dutch, damage to the environment, handed out, condemned the use of cars, took them away"]
+ ],
+ "typesNote": "Dạng summary completion lấy từ trong bài luôn theo thứ tự xuất hiện của thông tin, nên chỉ cần đọc một lượt từ đầu đoạn A: gặp thông tin của câu nào thì chốt câu đó. Quan trọng nhất là yêu cầu ONE WORD ONLY – viết hai từ là mất điểm dù đúng nghĩa, và phải chép y nguyên chính tả cùng dạng số ít/số nhiều có trong bài.",
+ "walk": [
+  {
+   "para": "Đoạn A",
+   "idea": "Nguồn gốc ý tưởng xe đạp dùng chung: mùa hè 1965 ở Amsterdam, nhóm Provo sơn trắng một số xe đạp cũ, phát tờ rơi cảnh báo về ô tô và để xe không khóa khắp thành phố cho ai cần thì dùng.",
+   "answers": [
+    {
+     "q": 23,
+     "ans": "activists",
+     "quote": "Provo, the organization that came up with the idea, was a group of Dutch activists who wanted to change society.",
+     "how": "Câu tóm tắt \"Provo was a group of Dutch [23] who wanted to change society\" gần như trùng nguyên văn câu trong bài, chỉ lược bớt phần giữa (\"the organization that came up with the idea\"). Chỗ trống đứng sau \"a group of Dutch\" nên cần một danh từ số nhiều chỉ người → chép đúng \"activists\". Đừng viết \"Dutch activists\" (thừa từ, vi phạm ONE WORD ONLY) cũng đừng viết \"organization\" (đó là từ chỉ bản thân Provo, không khớp với cấu trúc \"a group of Dutch ___\")."
+    },
+    {
+     "q": 24,
+     "ans": "consumerism",
+     "quote": "They believed the scheme, which was known as the Witte Fietsenplan, was an answer to the perceived threats of air pollution and consumerism.",
+     "how": "\"They were concerned about damage to the environment and [24]\" là cách diễn đạt lại \"the perceived threats of air pollution and consumerism\": \"were concerned about\" ↔ \"the perceived threats of\", còn \"damage to the environment\" chính là cách nói khác của \"air pollution\". Cấu trúc \"A and B\" được giữ nguyên, nên từ còn thiếu đúng là vế thứ hai: \"consumerism\". Mẹo: khi câu tóm tắt và câu trong bài cùng có \"and\", hãy khớp từng vế một – vế đã được paraphrase (air pollution) thì vế kia thường được chép nguyên."
+    },
+    {
+     "q": 25,
+     "ans": "leaflets",
+     "quote": "They also distributed leaflets describing the dangers of cars and inviting people to use the white bikes.",
+     "how": "\"They handed out [25] which condemned the use of cars\" ↔ \"They also distributed leaflets describing the dangers of cars\": \"handed out\" ↔ \"distributed\", còn \"condemned the use of cars\" ↔ \"describing the dangers of cars\". Chỗ trống là tân ngữ của \"handed out\" nên lấy danh từ \"leaflets\" – giữ nguyên số nhiều như trong bài, viết \"leaflet\" là sai chính tả so với bài."
+    },
+    {
+     "q": 26,
+     "ans": "police",
+     "quote": "The police were opposed to Provo's initiatives and almost as soon as the white bikes were distributed around the city, they removed them.",
+     "how": "Câu này đã sang đoạn B. \"Soon after the bikes were introduced\" ↔ \"almost as soon as the white bikes were distributed around the city\", và \"took them away\" ↔ \"they removed them\"; đại từ \"they\" trỏ ngược về \"The police\", nên chủ ngữ cần điền là \"police\". Đây là chỗ bắt buộc phải đọc tiếp sang đoạn B: nếu chỉ dừng ở đoạn A sẽ không tìm ra câu 26."
+    }
+   ],
+   "note": "Ba câu 23–25 nằm gọn trong đoạn A theo đúng thứ tự, nhưng câu 26 đã rơi sang câu thứ ba của đoạn B. Với summary completion, hãy đọc tiếp thêm một đoạn nữa cho tới khi tìm đủ câu cuối cùng, đừng mặc định mọi đáp án nằm trong cùng một đoạn."
+  },
+  {
+   "para": "Đoạn B",
+   "idea": "Schimmelpennink kể lại kết cục của kế hoạch đầu tiên: nó gây chú ý lớn nhưng không chạy được vì cảnh sát phản đối và thu xe ngay; ông coi đó mới chỉ là khởi đầu mang tính biểu tượng.",
+   "answers": [],
+   "note": "Câu 26 lấy từ chính đoạn này (xem phần giải thích ở trên). Lưu ý bẫy \"Schimmelpennink\" – tên riêng xuất hiện dày đặc và hấp dẫn mắt, nhưng chủ ngữ mà câu tóm tắt cần là người ĐÃ LẤY XE ĐI, tức \"the police\"."
+  },
+  {
+   "para": "Đoạn C–G",
+   "idea": "Các đoạn còn lại kể tiếp lịch sử về sau: kế hoạch 10.000 xe bị hội đồng thành phố bác (C), hệ thống đặt cọc ở Copenhagen và Witte Fietsenplan mới năm 1999 (D), nạn phá hoại/trộm cắp và việc Postbank bỏ thẻ chip (E), thành công ở Vienna, Lyon, Paris (F) và Amsterdam hôm nay (G).",
+   "answers": [],
+   "note": "Toàn bộ phần này nằm ngoài phạm vi bản tóm tắt vì tiêu đề tóm tắt chỉ nói về \"the first\" scheme. Khi đã chốt đủ Q23–26, hãy dừng lại – đọc tiếp chỉ tốn thời gian và dễ bị hút vào các con số (10,000 bikes, 250 bikes, 1999, 20,000 bicycles, 38%) không liên quan."
+  }
+ ],
+ "tips": [
+  "ONE WORD ONLY nghĩa là đúng MỘT từ: \"Dutch activists\", \"white bikes\", \"bee-keeping notes\" kiểu cụm hai từ đều bị tính sai. Khi thấy cụm danh từ trong bài, hãy xem chỗ trống trong câu tóm tắt đã có sẵn từ bổ nghĩa nào rồi (ví dụ đã có \"Dutch\", \"a chain of\") để chỉ lấy phần còn thiếu.",
+  "Chép đúng chính tả và đúng dạng số nhiều như trong bài: leaflets, activists, police. Người chấm không chấp nhận \"leaflet\" hay \"policeman\".",
+  "Tiêu đề của bản tóm tắt (ở đây là \"The first urban bike-sharing scheme\") là công cụ định vị mạnh nhất: nó cho biết đáp án nằm ở khúc nào của bài. Đọc tiêu đề trước, đừng lao vào scan cả bài.",
+  "Các câu trong một bản tóm tắt luôn đi theo thứ tự thông tin trong bài; nếu bạn thấy mình phải nhảy lùi về trước để tìm đáp án thì gần như chắc chắn là đã khớp nhầm chỗ.",
+  "Khi câu tóm tắt và câu gốc cùng cấu trúc \"X and Y\", hãy đối chiếu từng vế: vế đã bị diễn đạt lại (air pollution → damage to the environment) giúp bạn chắc chắn rằng mình đang đứng đúng câu, và vế kia chính là từ cần điền."
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "step1": "Tiêu đề chỉ có một từ \"Oxytocin\" – một hormone – nên bài gần như chắc chắn đi theo mạch khoa học quen thuộc: hormone này là gì, nghiên cứu đầu tiên phát hiện ra nó, các kết quả tích cực, rồi các kết quả trái ngược, và cuối cùng là cách giải thích. Tiêu đề bản tóm tắt \"Oxytocin research\" cùng hai đoạn tóm tắt (đoạn đầu về \"The earliest findings\", đoạn sau mở bằng \"However, later research\") trùng khít với mạch đó: nửa đầu bám các đoạn A–B (phát hiện sớm, thí nghiệm 2005), nửa sau bám các đoạn C–D (kết quả trái ngược ở Haifa, Antwerp, Amsterdam). Các tên trường đại học trong bản tóm tắt là la bàn locate cực tốt.",
+ "types": [
+  ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+  ["21–26", "Summary completion (ONE WORD ONLY)", "Có – bám tên riêng và mốc năm", "earliest findings, humans produce, 2005, University of Haifa, University of Antwerp, University of Amsterdam"]
+ ],
+ "typesNote": "Một nhóm duy nhất, sáu câu, theo đúng thứ tự bài: Q21–22 ở đoạn A, Q23 ở đoạn B (mốc 2005), Q24 ở đoạn C (Haifa), Q25–26 ở đoạn D (Antwerp rồi Amsterdam). Vì gần như mỗi câu gắn với một tên riêng, bạn chỉ cần quét tên riêng rồi đọc kỹ đúng câu chứa nó. Nhớ ONE WORD ONLY: bài hay viết cụm hai từ (\"a competitive game\", \"complete strangers\"), bạn phải tự cắt lấy một từ.",
+ "walk": [
+  {
+   "para": "Đoạn A",
+   "idea": "Giới thiệu oxytocin: hormone từ tuyến yên, được biết đến đầu tiên qua các nghiên cứu trên động vật (chuột đồng prairie vole, cừu mẹ), cũng tiết ra khi phụ nữ sinh con; nó nổi tiếng là 'love hormone' nhưng tác giả báo trước rằng cái nhìn lạc quan đó cần xét lại.",
+   "answers": [
+    {
+     "q": 21,
+     "ans": "animals",
+     "quote": "It was through various studies focusing on animals that scientists first became aware of the influence of oxytocin. They discovered that it helps reinforce the bonds between prairie voles, which mate for life",
+     "how": "\"The earliest findings ... came from research involving ___\" ↔ \"It was through various studies focusing on animals that scientists first became aware\" (earliest findings ↔ first became aware, research ↔ studies, involving ↔ focusing on). Phần \"about oxytocin and bonding\" khớp với \"helps reinforce the bonds\". Bẫy: prairie voles, sheep, lambs đều là nghiên cứu trên vật, nhưng chúng chỉ là ví dụ cụ thể và không phải từ đứng đúng chỗ cần điền; từ khái quát mà bài dùng là \"animals\". Giữ nguyên số nhiều."
+    },
+    {
+     "q": 22,
+     "ans": "childbirth",
+     "quote": "It is also released by women in childbirth, strengthening the attachment between mother and baby.",
+     "how": "\"humans produce oxytocin during ___\" ↔ \"It is also released by women in childbirth\" (humans produce ↔ is released by women, during ↔ in). Chỉ lấy \"childbirth\"; đừng viết \"in childbirth\" vì giới từ \"during\" đã có sẵn trong câu tóm tắt, và cũng đừng lấy \"newborn lambs\" ở câu trước vì đó là cừu, không phải người."
+    }
+   ],
+   "note": "Hai câu đầu tiên nằm rất gần nhau trong đoạn A. Chữ \"also\" ở câu về childbirth cho thấy bài đang chuyển từ động vật sang người – đúng đường đi của bản tóm tắt."
+  },
+  {
+   "para": "Đoạn B",
+   "idea": "Vai trò của oxytocin với hành vi con người xuất hiện năm 2005: thí nghiệm của Markus Heinrichs cho thấy người xịt oxytocin đầu tư tiền nhiều hơn người dùng giả dược. Các nghiên cứu nối tiếp đều củng cố quan điểm oxytocin làm tăng mặt tích cực của bản tính xã hội.",
+   "answers": [
+    {
+     "q": 23,
+     "ans": "placebo",
+     "quote": "The team found the participants who had sniffed oxytocin via a nasal spray beforehand invested more money than those who received a placebo instead.",
+     "how": "\"participants were given either oxytocin or a ___\" ↔ hai nhóm trong thí nghiệm: nhóm \"sniffed oxytocin\" và nhóm \"received a placebo instead\". Mạo từ \"a\" trước chỗ trống cho biết cần một danh từ đếm được số ít → \"placebo\" (không phải \"nasal spray\", vì đó là cách đưa oxytocin vào, không phải thứ thay thế oxytocin). Vế \"reinforced the belief that the hormone had a positive effect\" ↔ \"the results fuelled the view that oxytocin universally enhanced the positive aspects of our social nature\"."
+    }
+   ]
+  },
+  {
+   "para": "Đoạn C",
+   "idea": "Vài năm sau xuất hiện các kết quả trái ngược: ở Đại học Haifa, người hít oxytocin lại thấy khoái chí hơn khi thắng và ghen tị hơn khi người khác thắng trong một trò chơi cạnh tranh; nghiên cứu của Bartz còn cho thấy tác dụng phụ thuộc vào tính cách từng người.",
+   "answers": [
+    {
+     "q": 24,
+     "ans": "game",
+     "quote": "Simone Shamay-Tsoory at the University of Haifa, Israel, found that when volunteers played a competitive game, those who inhaled the hormone showed more pleasure when they beat other players, and felt more envy when others won.",
+     "how": "\"participants took part in a ___\" ↔ \"volunteers played a competitive game\" (participants ↔ volunteers, took part in ↔ played). \"the negative emotions which oxytocin can trigger\" ↔ \"felt more envy when others won\" – ghen tị chính là cảm xúc tiêu cực. Đề yêu cầu ONE WORD ONLY nên phải bỏ tính từ, chỉ điền \"game\", dù bài viết \"a competitive game\"."
+    }
+   ],
+   "note": "Đoạn C còn nhắc tới Jennifer Bartz (Mount Sinai) nhưng bản tóm tắt không hỏi phần này. Khi tên trường trong câu hỏi là Haifa, hãy dừng ngay ở câu chứa Haifa, đừng đọc lan sang nghiên cứu khác rồi điền nhầm."
+  },
+  {
+   "para": "Đoạn D",
+   "idea": "Tác dụng của oxytocin còn tùy vào việc ta đang tương tác với ai: nghiên cứu ở Antwerp cho thấy người dùng oxytocin lại kém hợp tác hơn với người hoàn toàn xa lạ; nghiên cứu ở Amsterdam cho thấy sự thiên vị – đàn ông Hà Lan gắn từ tích cực với tên Hà Lan nhanh hơn tên nước ngoài. Kết luận: oxytocin củng cố thiên kiến chứ không tạo thiện chí chung.",
+   "answers": [
+    {
+     "q": 25,
+     "ans": "strangers",
+     "quote": "Studies conducted by Carolyn DeClerck of the University of Antwerp, Belgium, revealed that people who had received a dose of oxytocin actually became less cooperative when dealing with complete strangers.",
+     "how": "\"people's lack of willingness to help ___\" ↔ \"became less cooperative when dealing with complete strangers\" (lack of willingness to help ↔ less cooperative). \"while under the influence of oxytocin\" ↔ \"who had received a dose of oxytocin\". ONE WORD ONLY nên bỏ \"complete\", chỉ điền \"strangers\"; giữ số nhiều vì sau \"help\" là tân ngữ chỉ chung một nhóm người."
+    },
+    {
+     "q": 26,
+     "ans": "names",
+     "quote": "Carsten De Dreu at the University of Amsterdam in the Netherlands discovered that volunteers given oxytocin showed favouritism: Dutch men became quicker to associate positive words with Dutch names than with foreign ones, for example.",
+     "how": "Câu tóm tắt dài nhưng ghép một-một với bài: \"consider ___ that are familiar to them in their own country\" ↔ \"Dutch names\" (tên quen thuộc ở nước mình, vì người tham gia là đàn ông Hà Lan); \"to have more positive associations\" ↔ \"quicker to associate positive words with\"; \"than those from other cultures\" ↔ \"than with foreign ones\". Vậy từ cần điền là danh từ số nhiều \"names\". Bẫy: \"words\" cũng ở ngay đó, nhưng \"positive words\" là thứ người ta gán vào, còn thứ được đánh giá quen/lạ là \"names\"; \"Dutch\" thì không điền được vì câu tóm tắt đã diễn giải thành \"in their own country\"."
+    }
+   ],
+   "note": "Q25 và Q26 cùng nằm trong đoạn D và cùng nói về sự thiên vị, nhưng khác đối tượng nghiên cứu: Antwerp = người lạ, Amsterdam = tên gọi. Bám đúng tên trường là không nhầm."
+  }
+ ],
+ "tips": [
+  "Khi bản tóm tắt nhắc tên viện/trường hoặc mốc năm, đó là từ khóa không bị paraphrase – hãy quét mắt tìm đúng chữ đó trước khi đọc câu nào.",
+  "ONE WORD ONLY buộc bạn cắt cụm từ trong bài: \"a competitive game\" → game, \"complete strangers\" → strangers. Giữ lại danh từ chính, bỏ tính từ bổ nghĩa.",
+  "Giữ nguyên số ít/số nhiều như trong bài (animals, strangers, names). Tự thêm hoặc bỏ \"s\" là sai chính tả theo chuẩn chấm.",
+  "Bẫy thường gặp ở dạng này là từ đúng chủ đề nhưng sai vai trò trong câu: nasal spray vs placebo, words vs names. Hãy hỏi: chỗ trống đang đóng vai gì trong câu (chủ ngữ, tân ngữ, thứ được so sánh)?",
+  "Đừng điền ví dụ cụ thể khi câu tóm tắt cần từ khái quát: bài nêu prairie voles và sheep, nhưng chỗ trống Q21 cần từ bao trùm là animals."
+ ]
+}
